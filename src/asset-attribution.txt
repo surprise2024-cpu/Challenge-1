@@ -1,0 +1,6 @@
+search icon: <a href="https://www.flaticon.com/free-icons/magnifier" title="magnifier icons">Magnifier icons created by meaicon - Flaticon</a>
+close icon: <a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by inkubators - Flaticon</a>
+instagram icon: <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by edt.im - Flaticon</a>
+X icon: <a href="https://www.flaticon.com/free-icons/tweet" title="tweet icons">Tweet icons created by Freepik - Flaticon</a>
+facebook icon: <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Indygo - Flaticon</a>
+discord icon: <a href="https://www.flaticon.com/free-icons/discord" title="discord icons">Discord icons created by LAFS - Flaticon</a>

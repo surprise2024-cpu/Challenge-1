@@ -1,0 +1,51 @@
+.stats {
+    display: flex;
+    gap: 40px;
+    color: #FFF;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1px 15px;
+    border-radius: 10px;
+    /*width: calc(100% - 400px);
+    background-color: blue;
+    padding-left: 40px;*/
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.section-text {
+    margin-left: 40px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.section-actions {
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-top: 30px;
+    padding-left: 40px;
+    background-color: blue;
+}
+
+.user-images {
+    display: flex;
+}
+
+.user {
+    width: 42px;
+    height: 42px;
+    border: 3px solid #0a0a1f;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -14px;
+}

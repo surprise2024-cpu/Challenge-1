@@ -1,0 +1,87 @@
+footer {
+    width: 100%;
+    background: linear-gradient(120deg, #2a3ea8 -10%, #0a0a1f 45%);
+    padding: 56px 0 40px;
+}
+
+.footer-cont {
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.footer-div1 {
+    max-width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.logo {
+    color: #FFF;
+    font-weight: 800;
+    font-size: 19px;
+}
+
+.logo-badge {
+    background: linear-gradient(120deg, #2a3ea8 45%, #8b5cf6 30%);
+    padding: 0.1px 8px 0.5px;
+    font-size: 19px;
+}
+
+.description {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.socials {
+    display: flex;
+    color: #FFF;
+    gap: 16px;
+}
+
+.social-link {
+    text-decoration: none;
+    display: flex;
+    color: #FFF;
+    opacity: 0.9;
+}
+
+.social-link:hover {
+    opacity: 1;
+    color: gray;
+}
+
+.footer-div2 {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 0 56px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.column-heading {
+    color: #8b5cf6;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 4px;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.link:hover {
+    color: gray;
+}
