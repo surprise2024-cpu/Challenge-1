@@ -9,10 +9,11 @@
     display: flex;
     gap: 40px;
     color: #FFF;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: #4c4a8c;
+    border: 2px solid rgba(255, 255, 255, 0.08);
     padding: 1px 15px;
     border-radius: 10px;
+    margin-left: 40px;
 }
 
 .stat {
@@ -95,10 +96,10 @@
 .user {
     width: 42px;
     height: 42px;
-    border: 3px solid #0a0a1f;
+    border: 3px solid #4c4a8c;
     border-radius: 50%;
     object-fit: cover;
-    margin-left: -14px;
+    margin-left: -20px;
 }
 
 .section1-image {

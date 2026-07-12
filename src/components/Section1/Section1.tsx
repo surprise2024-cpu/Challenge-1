@@ -9,6 +9,10 @@ import discord from '../../assets/discord.png'
 import image1 from '../../assets/3D-image1.png'
 import { HeroCardOverlay } from '../HeroCardOverlay/HeroCardOverlay'
 import videoIcon from '../../assets/video-icon.png'
+import man1 from '../../assets/man1.jpg'
+import man2 from '../../assets/man2.jpg'
+import woman1 from '../../assets/woman1.jpg'
+import woman2 from '../../assets/woman1.jpg'
 
 export const Section1 = () => {
   return (
@@ -51,10 +55,10 @@ export const Section1 = () => {
 
             <div className={styles['users']}>
                 <div className={styles['user-images']}>
-                    <img src={xIcon} alt='random image' className={styles.user}/>
-                    <img src={facebookIcon} alt='random image' className={styles.user}/>
-                    <img src={insta} alt='random image' className={styles.user}/>
-                    <img src={discord} alt='random image' className={styles.user}/>
+                    <img src={man1} alt='picture of a man' className={styles.user}/>
+                    <img src={man2} alt='picture of a man' className={styles.user}/>
+                    <img src={woman1} alt='picture of a woman' className={styles.user}/>
+                    <img src={woman2} alt='picture of a woman' className={styles.user}/>
                 </div>
                 <div className={styles['user.stat']}>
                     <Text variant={'h2'}>40k +</Text>
