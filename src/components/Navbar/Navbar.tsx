@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './Navbar.module.css'
 import { Text } from '../Text/Text'
 import { ContentContainer } from '../ContentContainer'
-import { Search } from '../../Search/Search'
+import { Search } from '../Search/Search'
 
 export const Navbar: React.FC<any> = (props) => {
   return (

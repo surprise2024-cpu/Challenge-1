@@ -6,6 +6,9 @@ import xIcon from '../../assets/X.png'
 import facebookIcon from '../../assets/facebook.png'
 import insta from '../../assets/insta.png'
 import discord from '../../assets/discord.png'
+import image1 from '../../assets/3D-image1.png'
+import { HeroCardOverlay } from '../HeroCardOverlay/HeroCardOverlay'
+import videoIcon from '../../assets/video-icon.png'
 
 export const Section1 = () => {
   return (
@@ -24,7 +27,11 @@ export const Section1 = () => {
             <div className={styles['section-actions']}>
                 <button className={styles['section1-btn1']}>Discover</button>
                 <button className={styles['section1-btn2']}>Create</button>
-                <a href='#/' className={styles['section-link']} >Watch a video</a>
+                <div className={styles['video-section']}>
+                    <img src={videoIcon} alt='video icon' className={styles['video-icon']}/>
+                    <a href='#/' className={styles['section-link']} >Watch a video</a>
+                </div>
+                
             </div>
             <div className={styles['stats']}>
                 <div className={styles.stat}>
@@ -56,11 +63,8 @@ export const Section1 = () => {
             </div>
         </div>
         <div className={styles['section1-image']}>
-
+            <HeroCardOverlay image={image1} imageAlt={'NFT Artwork'} endingIn={'1h 20m 30s'} highestBid={'32.4 ETH'} />
         </div>
-        
-        
-
     </div>
   )
 }

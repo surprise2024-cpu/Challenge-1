@@ -4,3 +4,4 @@ instagram icon: <a href="https://www.flaticon.com/free-icons/instagram" title="i
 X icon: <a href="https://www.flaticon.com/free-icons/tweet" title="tweet icons">Tweet icons created by Freepik - Flaticon</a>
 facebook icon: <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Indygo - Flaticon</a>
 discord icon: <a href="https://www.flaticon.com/free-icons/discord" title="discord icons">Discord icons created by LAFS - Flaticon</a>
+video-icon: <a href="https://www.flaticon.com/free-icons/blue" title="blue icons">Blue icons created by hqrloveq - Flaticon</a>
