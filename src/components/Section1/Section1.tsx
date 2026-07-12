@@ -2,10 +2,6 @@ import React from 'react'
 
 import { Text } from '../Text/Text'
 import styles from './Section1.module.css'
-import xIcon from '../../assets/X.png'
-import facebookIcon from '../../assets/facebook.png'
-import insta from '../../assets/insta.png'
-import discord from '../../assets/discord.png'
 import image1 from '../../assets/3D-image1.png'
 import { HeroCardOverlay } from '../HeroCardOverlay/HeroCardOverlay'
 import videoIcon from '../../assets/video-icon.png'
@@ -13,10 +9,11 @@ import man1 from '../../assets/man1.jpg'
 import man2 from '../../assets/man2.jpg'
 import woman1 from '../../assets/woman1.jpg'
 import woman2 from '../../assets/woman1.jpg'
+import { ContentContainer } from '../ContentContainer'
 
 export const Section1 = () => {
   return (
-    <div className={styles['section1-container']}>
+    <ContentContainer className={styles['section1-container']}>
         <div className={styles['section1-info']}>
             <div className={styles['section-text']}>
                 <Text variant={'h1'}>Discover, Collect</Text>
@@ -69,6 +66,6 @@ export const Section1 = () => {
         <div className={styles['section1-image']}>
             <HeroCardOverlay image={image1} imageAlt={'NFT Artwork'} endingIn={'1h 20m 30s'} highestBid={'32.4 ETH'} />
         </div>
-    </div>
+    </ContentContainer>
   )
 }

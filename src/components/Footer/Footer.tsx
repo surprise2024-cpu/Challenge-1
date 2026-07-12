@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { ContentContainer } from '../ContentContainer'
 import styles from './Footer.module.css'
 import { Text } from '../Text/Text'

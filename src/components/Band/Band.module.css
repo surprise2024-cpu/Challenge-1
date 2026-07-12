@@ -1,0 +1,27 @@
+.bandbar-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bandbar-image {
+    width: 30px;
+    height: 30px;
+}
+
+.bandbar-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.band-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 10px 8px;
+    background: linear-gradient(90deg, rgba(124, 58, 237, 0.35), rgba(59, 190, 246, 0.3));
+}
