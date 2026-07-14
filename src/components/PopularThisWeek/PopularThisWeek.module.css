@@ -2,11 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .image {
     width: 300px;
     height: 400px;
+    border-radius: 20px;
+    border: 1px solid blue;
 }
 
 .head-cont {
