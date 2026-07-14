@@ -6,6 +6,7 @@ import human from '../../assets/3D-image1.png'
 import human2 from '../../assets/3D-image2.png'
 import human3 from '../../assets/3D-image3.png'
 import human4 from '../../assets/3D-image4.png'
+import { Text } from '../Text/Text'
 
 import { HeroCardOverlay } from '../HeroCardOverlay/HeroCardOverlay'
 
@@ -15,7 +16,7 @@ export const PopularThisWeek: React.FC<any> = () => {
     <ContentContainer className={styles.content}>
 
         <div className={styles['head-cont']}>
-            Popular This week 
+            <Text variant='h2'>Popular This week </Text> 
         </div>
 
         <div className={styles.images}>
