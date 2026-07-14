@@ -11,6 +11,7 @@
     width: max-content;
     gap: 64px;
     animation: scroll-left 28s linear infinite;
+    cursor: pointer;
 }
 
 @keyframes scroll-left {
