@@ -7,10 +7,11 @@ type HeroCardOverlayProps = {
     endingIn: string, 
     highestBid: string,
     onPlaceBid?: () => void,
-    onPurchase?: () => void
+    onPurchase?: () => void,
+    className?: string
 }
 
-export const HeroCardOverlay: React.FC<HeroCardOverlayProps> = ({image, imageAlt, endingIn, highestBid, onPlaceBid, onPurchase }) => {
+export const HeroCardOverlay: React.FC<HeroCardOverlayProps> = ({ className, image, imageAlt, endingIn, highestBid, onPlaceBid, onPurchase }) => {
   return (
     <div className={styles.card}>
 
