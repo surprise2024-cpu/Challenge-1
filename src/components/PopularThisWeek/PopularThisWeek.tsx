@@ -15,10 +15,13 @@ export const PopularThisWeek: React.FC<any> = () => {
         </div>
 
         <div className={styles.images}>
-            <img src={human} />
-            
+            <img src={human} className={styles.image} />
+            <img src={human} className={styles.image} />
+            <img src={human} className={styles.image} />
+            <img src={human} className={styles.image} />
+            <img src={human} className={styles.image} />
         </div>
-        
+
     </ContentContainer>
   )
 }
