@@ -3,6 +3,7 @@ import React from 'react'
 import { ContentContainer } from '../ContentContainer'
 import styles from './Footer.module.css'
 import { Text } from '../Text/Text'
+
 import xIcon from '../../assets/X.png'
 import facebookIcon from '../../assets/facebook.png'
 import instaIcon from '../../assets/insta.png'
@@ -30,10 +31,12 @@ export const Footer = () => {
                 </Text>
 
                 <div className={styles.socials}>
-                    <a href='#/' className={styles['social-link']}>{xIcon}</a>
-                    <a href='#/' className={styles['social-link']}>{instaIcon}</a>
-                    <a href='#/' className={styles['social-link']}>{facebookIcon}</a>
-                    <a href='#/' className={styles['social-link']}>{discordIcon}</a>
+
+                    <img src={xIcon} className={styles['social-link']} />
+                    <img src={instaIcon} className={styles['social-link']} />
+                    <img src={facebookIcon} className={styles['social-link']} />
+                    <img src={discordIcon} className={styles['social-link']} />
+
                 </div>
 
             </div>

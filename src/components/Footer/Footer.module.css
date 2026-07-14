@@ -46,6 +46,8 @@ footer {
 }
 
 .social-link {
+    width: 22px;
+    height: 22px;
     text-decoration: none;
     display: flex;
     color: #FFF;

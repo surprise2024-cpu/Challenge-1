@@ -9,11 +9,13 @@ export const Navbar: React.FC<any> = (props) => {
     <nav>
       
       <ContentContainer className={styles['content']}>
+        
           <Text variant='h2' style={{ margin: 0 }} className={styles['logo']}>
             PLAY
             <span className={styles['logo-badge']}>
               NFT
-              </span>
+            </span>
+
           </Text>
 
           <div className={styles['links']}>
