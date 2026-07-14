@@ -15,13 +15,10 @@ export const PopularThisWeek: React.FC<any> = () => {
         </div>
 
         <div className={styles.images}>
-            <HeroCardOverlay image={human} imageAlt={'3D image'} endingIn={'222'} highestBid={'761'} />
-            <HeroCardOverlay image={human} imageAlt={'3D image'} endingIn={'222'} highestBid={'761'} />
-            <HeroCardOverlay image={human} imageAlt={'3D image'} endingIn={'222'} highestBid={'761'} />
-            <HeroCardOverlay image={human} imageAlt={'3D image'} endingIn={'222'} highestBid={'761'} />
-            <HeroCardOverlay image={human} imageAlt={'3D image'} endingIn={'222'} highestBid={'761'} />
+            <img src={human} />
+            
         </div>
-
+        
     </ContentContainer>
   )
 }
