@@ -16,13 +16,22 @@ const partners = [
 export const Band = () => {
   return (
     <div className={styles['band-container']}>
+        <div className={styles['band-track']}>
 
-        {
-            partners.map((partner) => (
-                <Bandbar key={partner.id}  name={partner.name} />
-            ))
-        }
+            {
+                partners.map((partner) => (
+                    <Bandbar key={partner.id}  name={partner.name} />
+                ))
+            }
 
+            {
+                partners.map((partner) => (
+                    <Bandbar key={partner.id}  name={partner.name} />
+                ))
+            }
+
+        </div>
+        
     </div>
   )
 }

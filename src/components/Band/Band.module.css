@@ -2,11 +2,40 @@
     display: flex;
     align-items: center;
     gap: 8px;
+    flex-shrink: 0;
+}
+
+.band-track {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 64px;
+    animation: scroll-left 28s linear infinite;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.band-container:hover .band-track {
+    animation-play-state: paused;
 }
 
 .bandbar-image {
     width: 30px;
     height: 30px;
+}
+
+.bandbar-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
 }
 
 .bandbar-text {
@@ -17,11 +46,9 @@
 }
 
 .band-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    gap: 20px;
-    padding: 10px 8px;
-    background: linear-gradient(90deg, rgba(124, 58, 237, 0.35), rgba(59, 190, 246, 0.3));
+    overflow: hidden;
+    padding: 26px;
+    background: linear-gradient(90deg, rgba(124, 58, 237, 0.35), rgba(56, 190, 246, 0.3));
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }

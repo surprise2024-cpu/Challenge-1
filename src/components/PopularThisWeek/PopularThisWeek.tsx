@@ -8,7 +8,9 @@ import human3 from '../../assets/3D-image3.png'
 import human4 from '../../assets/3D-image4.png'
 import { Text } from '../Text/Text'
 
-import { HeroCardOverlay } from '../HeroCardOverlay/HeroCardOverlay'
+const items = [
+  {}
+]
 
 export const PopularThisWeek: React.FC<any> = () => {
   return (

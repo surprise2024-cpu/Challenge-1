@@ -23,7 +23,7 @@ export const Bandbar: React.FC<BandbarProps> = ({name, img, img2}) => {
         <Text variant='h2'>{name}</Text>
       </div>
       
-      {img &&(
+      {img2 &&(
         <div className={styles['bandbar-image']}>
           <img src={img2} />
         </div>
