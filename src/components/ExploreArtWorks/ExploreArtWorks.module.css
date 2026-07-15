@@ -12,7 +12,7 @@
 
 .card {
     margin: auto;
-    background: linear-gradient(90deg, #8b5cf6 100%, #4f7cf7 0%);
+    background: linear-gradient(120deg, #00008b 0%, #4f7cf7 100%);
     width: 250px;
     height: 205px;
     border-radius: 20px;
@@ -65,10 +65,15 @@
     padding-right: 10px;
 }
 
+.name {
+    color: #FFF;
+}
+
 .items {
     border: 2px solid #00008b;
     border-radius: 20px;
     text-box: both trim-both;
+    color: #fff;
     
 }
 

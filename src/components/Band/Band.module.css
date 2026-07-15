@@ -10,16 +10,16 @@
     align-items: center;
     width: max-content;
     gap: 64px;
-    animation: scroll-left 28s linear infinite;
+    animation: scroll-right 28s linear infinite;
     cursor: pointer;
 }
 
-@keyframes scroll-left {
+@keyframes scroll-right {
     0% {
-        transform: translateX(0);
+        transform: translateX(-50%);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(0);
     }
 }
 
@@ -49,7 +49,6 @@
 .band-container {
     overflow: hidden;
     padding: 26px;
-    background: linear-gradient(90deg, rgba(124, 58, 237, 0.35), rgba(56, 190, 246, 0.3));
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    background: linear-gradient(120deg, #00008b 50%, #4f7cf7 100%);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }

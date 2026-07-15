@@ -7,7 +7,7 @@
     border: 1px solid silver;
     border-top-left-radius: 150px;
     border-bottom-right-radius: 150px;
-    background: linear-gradient(120deg, #2a3ea8 100%, #8b5cf6 0%);
+    background: linear-gradient(120deg, #00008b 50%, #4f7cf7 100%);
 }
 
 .text-cont {
@@ -25,7 +25,7 @@
 
 .comm-btn {
     width: 150px;
-    background: linear-gradient(90deg, #8b5cf6 0%, #4f7cf7 100%);
+    background: linear-gradient(120deg, #00008b 0%, #4f7cf7 100%);
     border: none;
     color: white;
     padding: 8px 20px;
