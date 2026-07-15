@@ -5,8 +5,9 @@ import styles from './ExploreArtWorks.module.css'
 import { HeroCardOverlay } from '../HeroCardOverlay/HeroCardOverlay'
 import human from '../../assets/3D-image2.png'
 import { Text } from '../Text/Text'
+import { ExploreArtWorksCard } from './ExploreArtWorksCard'
 
-const Artwork = [
+const artwork = [
   {id: 1, name: 'Abstract', items: '30 items'},
   {id: 2, name: '3D Art', items: '45 items'},
   {id: 3, name: 'Modern Art', items: '59 items'},
@@ -23,8 +24,18 @@ export const ExploreArtWorks = () => {
             <Text variant='h2'>Explore Artworks</Text> 
         </div>
 
-        <div className={styles['full-card']}>
-            {}
+        <div className={styles['card-cont']}>
+
+            
+                
+            {
+              artwork.map((art) => (
+                <ExploreArtWorksCard img1={human} img2={human} img3={human} img4={human} name={art.name} items={art.items} />
+              ))
+            }
+
+            
+
         </div>
 
     </ContentContainer>
