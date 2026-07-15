@@ -9,8 +9,8 @@
     display: flex;
     gap: 40px;
     color: #FFF;
-    background: linear-gradient(120deg, #00008b 0%, #4f7cf7 100%);
-    border: 1px solid silver;
+    background: linear-gradient(90deg, rgba(139, 92, 246, 0.25) 0%, rgba(79, 124, 247, 0.25) 100%);
+    border: 1px solid rgba(139, 92, 246, 0.3);
     padding: 1px 15px;
     border-radius: 10px;
     margin-left: 40px;
@@ -37,7 +37,7 @@
 }
 
 .section1-btn1 {
-    background: linear-gradient(120deg, #00008b 0%, #4f7cf7 100%);
+    background: linear-gradient(120deg, #8b5cf6 0%, #4f7cf7 100%);
     border: none;
     color: #FFF;
     padding: 14px 30px;
@@ -53,7 +53,7 @@
 
 .section1-btn2 {
     background: transparent;
-    border: 2px solid #00008b;
+    border: 2px solid rgba(139, 92, 246, 0.6);
     color: #FFF;
     padding: 14px 30px;
     border-radius: 15px;
@@ -63,7 +63,7 @@
 }
 
 .section1-btn2:hover {
-    background-color: #00008b;
+    background-color: rgba(255, 255, 255, 0.08);
 }
 
 .video-section {
@@ -104,13 +104,15 @@
 .user {
     width: 42px;
     height: 42px;
-    border: 3px solid #00008b;
+    border: 3px solid #0a0a1f;
     border-radius: 50%;
     object-fit: cover;
     margin-left: -20px;
 }
 
 .user-stat {
+    display: flex;
+    flex-direction: column;
     color: #FFF;
 }
 

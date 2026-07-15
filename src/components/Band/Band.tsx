@@ -19,14 +19,13 @@ export const Band = () => {
         <div className={styles['band-track']}>
 
             {
-                partners.map((partner) => (
-                    <Bandbar key={partner.id}  name={partner.name} />
-                ))
-            }
+                [0, 1, 2, 3].map((setIndex) => (
+                    partners.map((partner) => (
 
-            {
-                partners.map((partner) => (
-                    <Bandbar key={partner.id}  name={partner.name} />
+                        <Bandbar key={`${setIndex}-${partner.id}`}  name={partner.name} />
+
+                    ))
+                    
                 ))
             }
 

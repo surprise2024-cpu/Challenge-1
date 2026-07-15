@@ -3,8 +3,8 @@ nav {
     top: 0;
     height: 68px;
     width: 100%;
-    background-color: #0a0a1f;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
     z-index: 100;
 }
 
@@ -28,7 +28,7 @@ nav {
 
 .logo-badge {
     background: linear-gradient(120deg, #8b5cf6 -10%, #4f7cf7 100%);
-    padding: 0 10px 0;
+    padding: 0 10px;
     font-size: 20px;
     margin-left: 4px;
 }
@@ -43,7 +43,7 @@ nav {
 
 .link {
     text-decoration: none;
-    color: #fff;
+    color: grey;
     font-size: 14.5px;
     font-weight: 500;
     padding-bottom: 6px;
@@ -60,15 +60,24 @@ nav {
     bottom: -2px;
     width: 50%;
     height: 2px;
-    background-color: #00008b;
+    background: linear-gradient(90deg, #8b5cf6, #4f7cf7);
 
-    transform: scale(0);
-    transform-origin: bottom left;
+    transform: scaleX(0);
+    transform-origin: center;
     transition: transform 0.3s ease;
 }
 
+.link.active {
+    color: #fff;
+    font-weight: 700;
+}
+
+.link.active::after {
+    transform: scaleX(1);
+}
+
 .link:hover::after {
-    transform: scale(1);
+    transform: scaleX(1);
 }
 
 .register-btn {

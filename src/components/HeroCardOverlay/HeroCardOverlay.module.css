@@ -3,7 +3,7 @@
     width: 100%;
     border-radius: 24px;
     aspect-ratio: 3 / 4;
-    background: linear-gradient(160deg, rgba(70, 40, 130, 0.5), rgba(20, 20, 60, 0.7));
+    /*background: linear-gradient(160deg, rgba(70, 40, 130, 0.5), rgba(20, 20, 60, 0.7));*/
     border: 1px solid rgba(255, 255, 255, 0.1);
     overflow: hidden;
 }
@@ -23,7 +23,8 @@
     right: 0;
     bottom: 0;
     padding: 24px 20px 20px;
-    background: linear-gradient(180deg, transparent 0%, rgba(20, 15, 50, 0.9) 35%, rgba(10, 10, 45, 0.9) 100%);
+    background: linear-gradient(100deg, rgba(88, 28, 165, 0.55) 0%, rgba(59, 113, 188, 0.5) 100%),
+    linear-gradient(180deg, transparent 0%, rgba(8, 5, 25, 0.6) 100%);
 }
 
 .row {
@@ -61,11 +62,11 @@
 }
 
 .bid-button {
-    background: linear-gradient(90deg, #8b5cf6 0%, #4f7cf7 100%);
+    background: linear-gradient(90deg, #6d28d9 0%, #169be8 100%);
     color: #FFF;
 }
 
 .purchase-button {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(180, 205, 240, 0.28);
     color: #FFF;
 }

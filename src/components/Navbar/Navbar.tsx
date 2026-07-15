@@ -4,7 +4,7 @@ import { Text } from '../Text/Text'
 import { ContentContainer } from '../ContentContainer'
 import { Search } from '../Search/Search'
 
-export const Navbar: React.FC<any> = (props) => {
+export const Navbar: React.FC<any> = () => {
   return (
     <nav>
       
@@ -19,7 +19,7 @@ export const Navbar: React.FC<any> = (props) => {
           </Text>
 
           <div className={styles['links']}>
-              <a href='#/' className={styles.link}>Home</a>
+              <a href='#/' className={`${styles.link} ${styles.active}`}>Home</a>
               <a href='#/' className={styles.link}>Explore</a>
               <a href='#/' className={styles.link}>Marketplace</a>
               <a href='#/' className={styles.link}>Artists</a>

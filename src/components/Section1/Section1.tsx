@@ -23,8 +23,8 @@ export const Section1 = () => {
                 <Text variant={'h1'}>and Sell Dope</Text>
                 <Text variant={'h1'}>Art and NFTs</Text>
                 <Text variant={'p'}>
-                    The worlds larest digital marketplace for crypto <br/>
-                    and non fungible tokens (NFTs)
+                    The world's largest digital marketplace for crypto <br/>
+                    collections and non fungible tokens (NFTs)
                 </Text>
 
             </div>
@@ -69,7 +69,7 @@ export const Section1 = () => {
                     <img src={woman2} alt='picture of a woman' className={styles.user}/>
                 </div>
 
-                <div className={styles['user.stat']}>
+                <div className={styles['user-stat']}>
                     <Text variant={'h2'}>40k +</Text>
                     <Text className={styles['active-users']} variant={'span'}>Active Users</Text>
                 </div>
