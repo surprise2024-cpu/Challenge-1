@@ -71,7 +71,7 @@ export const Section1 = () => {
 
                 <div className={styles['user.stat']}>
                     <Text variant={'h2'}>40k +</Text>
-                    <Text variant={'span'}>Active Users</Text>
+                    <Text className={styles['active-users']} variant={'span'}>Active Users</Text>
                 </div>
                 
             </div>
