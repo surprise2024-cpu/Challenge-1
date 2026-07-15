@@ -69,8 +69,6 @@ nav {
 
 .link:hover::after {
     transform: scale(1);
-    color: gray;
-    text-decoration: underline;
 }
 
 .register-btn {
