@@ -14,74 +14,68 @@
 
 .card {
     margin: auto;
-    background: linear-gradient(120deg, #00008b 0%, #4f7cf7 100%);
+     background: linear-gradient(120deg, #0b0626 20%, #2d1a6e 45%, #234c9c 100%);
     width: 250px;
-    height: 205px;
     border-radius: 20px;
     object-fit: cover;
-    border: 1px solid silver;
-    
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 24px rgba(59, 190, 246, 0.18);
+    overflow: hidden;
 }
 
 .first-sec {
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 1px;
 }
 
 .image {
     width: 76px;
     height: 60px;
     object-fit: cover;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-top: 8px;
-    object-fit: cover;
     object-position: center;
+    display: block;
 }
 
 .image1 {
     width: 76px;
     height: 60px;
     object-fit: cover;
-    padding-left: 3px;
-    padding-right: 3px;
-    padding-top: 8px;
-    object-fit: cover;
     object-position: center;
+    display: block;
 }
 
 .image4 {
-    width: 244px;
+    width: 100%;
     height: 100px; 
     object-fit: cover;
-    padding-left: 3px;
-    padding-right: 3px;
+    display: block;
 }
 
 .text-sec {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 230px;
+    padding: 10px 12px;
 }
 
 .name {
     color: #FFF;
+    font-size: 15px;
 }
 
 .items {
-    border: 2px solid #00008b;
+    background: #1e40af;
     border-radius: 20px;
-    text-box: both trim-both;
     color: #fff;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .card-cont {
     display: grid;
-    grid-template-columns: repeat(3, 280px);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     row-gap: 25px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
+
