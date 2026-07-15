@@ -9,8 +9,8 @@
     display: flex;
     gap: 40px;
     color: #FFF;
-    background: #4c4a8c;
-    border: 2px solid rgba(255, 255, 255, 0.08);
+    background: linear-gradient(120deg, #00008b 0%, #4f7cf7 100%);
+    border: 1px solid silver;
     padding: 1px 15px;
     border-radius: 10px;
     margin-left: 40px;
@@ -37,7 +37,7 @@
 }
 
 .section1-btn1 {
-    background: linear-gradient(90deg, #8b5cf6 0%, #4f7cf7 100%);
+    background: linear-gradient(120deg, #00008b 0%, #4f7cf7 100%);
     border: none;
     color: #FFF;
     padding: 14px 30px;
@@ -47,15 +47,23 @@
     cursor: pointer;
 }
 
+.section1-btn1:hover {
+    filter: brightness(1.08);
+}
+
 .section1-btn2 {
     background: transparent;
-    border: 2px solid #4c4a8c;
+    border: 2px solid #00008b;
     color: #FFF;
     padding: 14px 30px;
     border-radius: 15px;
     font-weight: 500;
     font-size: 15px;
     cursor: pointer;
+}
+
+.section1-btn2:hover {
+    background-color: #00008b;
 }
 
 .video-section {
@@ -96,10 +104,14 @@
 .user {
     width: 42px;
     height: 42px;
-    border: 3px solid #4c4a8c;
+    border: 3px solid #00008b;
     border-radius: 50%;
     object-fit: cover;
     margin-left: -20px;
+}
+
+.user-stat {
+    color: #FFF;
 }
 
 .section1-image {

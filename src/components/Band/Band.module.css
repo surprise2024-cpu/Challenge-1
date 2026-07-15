@@ -3,6 +3,7 @@
     align-items: center;
     gap: 8px;
     flex-shrink: 0;
+    height: 5px;
 }
 
 .band-track {
