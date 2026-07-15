@@ -14,7 +14,7 @@ export const TopSellerBar: React.FC<TopSellerBarProps> = ({ image, name, price }
 
         <div className={styles['card']}>
 
-            <div className={styles['image-container']}>
+            <div className={styles['image-cont']}>
 
                 <img src={image} alt='just an image' className={styles['image']}/>
 

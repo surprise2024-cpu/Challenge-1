@@ -1,24 +1,84 @@
 .bar {
-    background-color: blue;
+    margin-bottom: 15px;
 }
 
 .card {
     background-color: brown;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     width: 250px;
+    gap: 30px;
+    border: 1px solid silver;
+    border-radius: 10px;
 }
 
 .image {
-    width: 60px;
-    height: 60px;
-    padding-left: 15px;
-    padding-top: 5px;
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    inset: 0;
     object-fit: cover;
 }
 
 .head-cont {
     text-align: center;
+}
+
+.seller-track {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 15px;
+    animation: scroll-right 30s linear infinite;
+    cursor: pointer;
+}
+
+.seller-track2 {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 15px;
+    animation: scroll-left 30s linear infinite;
+    cursor: pointer;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.image-cont {
+    width: 70px;
+    height: 70px;
+    background-color: blue;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.seller-details {
+    
+}
+
+.name {
+    color: #FFF;
+}
+
+.price {
+    color: #FFF;
 }
