@@ -8,6 +8,7 @@ import { Band } from './components/Band/Band'
 import { PopularThisWeek } from './components/PopularThisWeek/PopularThisWeek'
 import { TopSellers } from './components/TopSellers/TopSellers'
 import { ExploreArtWorks } from './components/ExploreArtWorks/ExploreArtWorks'
+import { Community } from './components/Community/Community'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -26,6 +27,8 @@ function App() {
         <TopSellers />
 
         <ExploreArtWorks />
+
+        <Community />
 
       </div>
       

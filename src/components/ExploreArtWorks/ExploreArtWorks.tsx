@@ -6,6 +6,15 @@ import { HeroCardOverlay } from '../HeroCardOverlay/HeroCardOverlay'
 import human from '../../assets/3D-image2.png'
 import { Text } from '../Text/Text'
 
+const Artwork = [
+  {id: 1, name: 'Abstract', items: '30 items'},
+  {id: 2, name: '3D Art', items: '45 items'},
+  {id: 3, name: 'Modern Art', items: '59 items'},
+  {id: 4, name: 'Game', items: '25 items'},
+  {id: 5, name: 'Graffiti', items: '36 items'},
+  {id: 6, name: 'Watercolor', items: '40 items'},
+]
+
 export const ExploreArtWorks = () => {
   return (
 
@@ -14,8 +23,8 @@ export const ExploreArtWorks = () => {
             <Text variant='h2'>Explore Artworks</Text> 
         </div>
 
-        <div className={styles.images}>
-            <HeroCardOverlay image={human} imageAlt={'3D image'} endingIn={'222'} highestBid={'761'} />
+        <div className={styles['full-card']}>
+            {}
         </div>
 
     </ContentContainer>
