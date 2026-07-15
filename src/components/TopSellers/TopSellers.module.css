@@ -79,8 +79,10 @@
 .name {
     font-weight: 600;
     color: #FFF;
+    font-size: 14px;
 }
 
 .price {
     color: #FFF;
+    font-size: 14px;
 }

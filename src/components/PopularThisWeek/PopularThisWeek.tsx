@@ -9,11 +9,11 @@ import human4 from '../../assets/3D-image4.png'
 import { Text } from '../Text/Text'
 
 const items = [
-  {id: 1, title: 'Costa', author: 'Yang', price: '1.75 ETH', likes: '39k', image: human},
-  {id: 1, title: 'VERSACE', author: 'Antoni Tudisco', price: '2.45 ETH', likes: '48k', image: human2},
-  {id: 1, title: 'Digital Decade', author: 'Anthony gargasz', price: '2.45 ETH', likes: '50k', image: human3, featured: true},
-  {id: 1, title: 'Winter Jamz', author: 'Antoni Tudisco', price: '2.3 ETH', likes: '47k', image: human4},
-  {id: 1, title: 'Pastal Wifey', author: 'blake kathryn', price: '2.23 ETH', likes: '44k', image: human}
+  {id: 1, title: 'Costa', author: 'by Yang', price: '1.75 ETH', likes: '39k', image: human},
+  {id: 1, title: 'VERSACE', author: ' by Antoni Tudisco', price: '2.45 ETH', likes: '48k', image: human2},
+  {id: 1, title: 'Digital Decade', author: 'by Anthony gargasz', price: '2.45 ETH', likes: '50k', image: human3, featured: true},
+  {id: 1, title: 'Winter Jamz', author: 'by Antoni Tudisco', price: '2.3 ETH', likes: '47k', image: human4},
+  {id: 1, title: 'Pastal Wifey', author: 'by blake kathryn', price: '2.23 ETH', likes: '44k', image: human}
 ]
 
 export const PopularThisWeek: React.FC<any> = () => {
