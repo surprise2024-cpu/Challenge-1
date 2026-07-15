@@ -49,11 +49,28 @@ nav {
     padding-bottom: 6px;
     cursor: pointer;
     position: relative;
+    display: inline-block;
     
 }
 
-.link:hover {
+.link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 50%;
+    height: 2px;
+    background-color: #00008b;
+
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease;
+}
+
+.link:hover::after {
+    transform: scale(1);
     color: gray;
+    text-decoration: underline;
 }
 
 .register-btn {
