@@ -1,4 +1,6 @@
-
+.community {
+    padding-top: 60px;
+}
 .content {
     display: grid;
     place-items: center;
