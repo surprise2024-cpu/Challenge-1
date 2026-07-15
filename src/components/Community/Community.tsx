@@ -20,7 +20,7 @@ export const Community = () => {
 
             <div className={styles['btn-cont']}>
 
-                <button className={'comm-btn'}>Join Community</button>
+                <button className={styles['comm-btn']}>Join Community</button>
 
             </div>
 

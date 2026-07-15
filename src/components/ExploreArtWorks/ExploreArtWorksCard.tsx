@@ -19,7 +19,7 @@ export const ExploreArtWorksCard: React.FC<CardProps> = ({ img1, img2, img3, img
         <section className={styles['first-sec']}>
 
             <div>
-                <img  className={styles.image} src={img1} alt='image 1'/>
+                <img  className={styles.image1} src={img1} alt='image 1'/>
             </div>
 
             <div>
@@ -27,7 +27,7 @@ export const ExploreArtWorksCard: React.FC<CardProps> = ({ img1, img2, img3, img
             </div>
 
             <div>
-                <img className={styles.image} src={img3} alt='image 3'/>
+                <img className={styles.image1} src={img3} alt='image 3'/>
             </div>
 
         </section>
@@ -49,7 +49,7 @@ export const ExploreArtWorksCard: React.FC<CardProps> = ({ img1, img2, img3, img
             <div>
                 <Text className={styles.items} variant={'span'}>{ items }</Text>
             </div>
-            
+
         </div>
         
     </div>

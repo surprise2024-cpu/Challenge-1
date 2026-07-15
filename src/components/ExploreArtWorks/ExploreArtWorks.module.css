@@ -11,10 +11,14 @@
 }
 
 .card {
-    background-color: blue;
+    margin: auto;
+    background: linear-gradient(90deg, #8b5cf6 100%, #4f7cf7 0%);
     width: 250px;
-    height: 200px;
+    height: 205px;
     border-radius: 20px;
+    object-fit: cover;
+    border: 1px solid silver;
+    
 }
 
 .first-sec {
@@ -29,6 +33,20 @@
     object-fit: cover;
     padding-left: 3px;
     padding-right: 3px;
+    padding-top: 8px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image1 {
+    width: 76px;
+    height: 60px;
+    object-fit: cover;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 8px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .image4 {
@@ -43,9 +61,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.items {
+    border: 2px solid #00008b;
+    border-radius: 20px;
+    text-box: both trim-both;
+    
 }
 
 .card-cont {
     display: grid;
     grid-template-columns: repeat(3, 280px);
+    row-gap: 25px;
 }
