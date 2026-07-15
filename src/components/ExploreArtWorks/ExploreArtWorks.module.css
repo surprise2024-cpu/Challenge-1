@@ -14,24 +14,29 @@
     background-color: blue;
     width: 250px;
     height: 200px;
+    border-radius: 20px;
 }
 
 .first-sec {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 2px;
 }
 
 .image {
     width: 76px;
     height: 60px;
     object-fit: cover;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .image4 {
-    width: 250px;
+    width: 244px;
     height: 100px; 
     object-fit: cover;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 
 .text-sec {
@@ -42,5 +47,5 @@
 
 .card-cont {
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 280px);
 }
