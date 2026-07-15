@@ -26,23 +26,35 @@ export const PopularThisWeek: React.FC<any> = () => {
         </div>
 
         <div className={styles.images}>
+
           {items.map((item) => (
+
             <div key={item.id} className={styles.card}>
+
               <img src={item.image} className={styles.image} alt={item.title} />
 
               <div className={styles.overlay}>
+
                 <div>
-                    <div className={styles.title}>{item.title}</div>
-                    <div className={styles.author}>{item.author}</div>
+
+                  <div className={styles.title}>{item.title}</div>
+                  <div className={styles.author}>{item.author}</div>
+
                 </div>
+
                 <div className={styles.meta}>
-                    <div className={styles.price}>{item.price}</div>
-                    <div className={styles.likes}>{item.likes}</div>
+
+                  <div className={styles.price}>{item.price}</div>
+                  <div className={styles.likes}>{item.likes}</div>
+
                 </div>
+
               </div>
 
             </div>
           ))}
+
+          
             
         </div>
 

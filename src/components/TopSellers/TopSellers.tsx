@@ -51,17 +51,17 @@ export const TopSellers = () => {
 
           <div className={styles['seller-track2']}>
 
-          {
-            sellers2.map((sel) => (
-              <TopSellerBar image={human} name={sel.name} price={sel.price} />
-            ))
-          }
+            {
+              sellers2.map((sel) => (
+                <TopSellerBar image={human} name={sel.name} price={sel.price} />
+              ))
+            }
 
-          {
-            sellers2.map((sel) => (
-              <TopSellerBar image={human} name={sel.name} price={sel.price} />
-            ))
-          }
+            {
+              sellers2.map((sel) => (
+                <TopSellerBar image={human} name={sel.name} price={sel.price} />
+              ))
+            }
 
           </div>
 

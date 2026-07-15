@@ -8,6 +8,8 @@
 
 .head-cont {
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .card {
@@ -63,6 +65,7 @@
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
+    width: 230px;
 }
 
 .name {
@@ -74,7 +77,7 @@
     border-radius: 20px;
     text-box: both trim-both;
     color: #fff;
-    
+    font-size: 15px;
 }
 
 .card-cont {
