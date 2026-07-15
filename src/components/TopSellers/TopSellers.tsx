@@ -5,6 +5,7 @@ import styles from './TopSellers.module.css'
 import { HeroCardOverlay } from '../HeroCardOverlay/HeroCardOverlay'
 import human from '../../assets/3D-image2.png'
 import { Text } from '../Text/Text'
+import { TopSellerBar } from './TopSellerBar'
 
 export const TopSellers = () => {
   return (
@@ -14,8 +15,9 @@ export const TopSellers = () => {
             <Text variant='h2'>Top Sellers</Text> 
         </div>
 
-        <div className={styles.images}>
-            <HeroCardOverlay image={human} imageAlt={'3D image'} endingIn={'222'} highestBid={'761'} />
+        <div className={styles['card-container']}>
+            <TopSellerBar image={human} name={'Leighton Kramer'} price={'276.7 Eth'} />
+            <TopSellerBar image={human} name={'Leighton Kramer'} price={'276.7 Eth'} />
         </div>
 
     </ContentContainer>

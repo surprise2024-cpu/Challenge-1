@@ -1,5 +1,22 @@
-.images {
-    width: 300px;
+.bar {
+    background-color: blue;
+}
+
+.card {
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 .head-cont {
