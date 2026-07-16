@@ -4,11 +4,11 @@
     width: 100%;
     padding-bottom: 100px;
 
-    background: radial-gradient(ellipse 900px 600px at 0% 10%, rgba(27, 69, 135, 0.6), transparent 70%),
-    radial-gradient(ellipse 900px 700px at 100% 25%, rgba(31, 64, 136, 0.6), transparent 70%),
-    radial-gradient(ellipse 900px 600px at 50% 45%, rgba(27, 69, 135, 0.5), transparent 70%),
-    radial-gradient(ellipse 900px 700px at 100% 75%, rgba(31, 64, 136, 0.6), transparent 70%),
-    radial-gradient(ellipse 900px 700px at 0% 90%, rgba(31, 64, 136, 0.6), transparent 70%),
+    background: radial-gradient(ellipse 900px 600px at 0% 10%, rgba(27, 69, 135, 0.6), transparent 90%),
+    radial-gradient(ellipse 900px 700px at 100% 25%, rgba(31, 64, 136, 0.6), transparent 90%),
+    radial-gradient(ellipse 900px 600px at 50% 45%, rgba(27, 69, 135, 0.6), transparent 75%),
+    radial-gradient(ellipse 900px 700px at 100% 75%, rgba(31, 64, 136, 0.6), transparent 90%),
+    radial-gradient(ellipse 900px 700px at 0% 95%, rgba(31, 64, 136, 0.6), transparent 80%),
     #060318;
 
     overflow-x: hidden;
