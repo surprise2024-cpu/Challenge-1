@@ -67,6 +67,7 @@ export const Section1 = () => {
                     <img src={man2} alt='picture of a man' className={styles.user}/>
                     <img src={woman1} alt='picture of a woman' className={styles.user}/>
                     <img src={woman2} alt='picture of a woman' className={styles.user}/>
+                    <img src={woman2} alt='picture of a woman' className={styles.user}/>
                 </div>
 
                 <div className={styles['user-stat']}>

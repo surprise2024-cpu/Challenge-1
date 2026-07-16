@@ -43,7 +43,7 @@ nav {
 
 .link {
     text-decoration: none;
-    color: grey;
+    color: white;
     font-size: 14.5px;
     font-weight: 500;
     padding-bottom: 6px;
@@ -57,7 +57,7 @@ nav {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -2px;
+    bottom: 8px;
     width: 50%;
     height: 2px;
     background: linear-gradient(90deg, #8b5cf6, #4f7cf7);
