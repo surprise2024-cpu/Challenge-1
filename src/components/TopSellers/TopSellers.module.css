@@ -1,8 +1,12 @@
+.seller-section {
+    padding-bottom: 50px;
+}
+
 .card-container {
     position: relative;
     overflow: hidden;
     -webkit-mask-image: linear-gradient(to right, transparent 0, black 6%, black 94%, transparent 100%);
-    mask-image: linear-gradient(to right, transparent 0, black 6%, black 94%, transparent 100%);
+    mask-image: linear-gradient(to left, transparent 0, black 6%, black 94%, transparent 100%);
 }
 
 /*.bar {
@@ -10,7 +14,8 @@
 }*/
 
 .card {
-    background: linear-gradient(120deg, #00008b 80%, #4f7cf7 100%);
+    background: linear-gradient(90deg, #0b0626 0%, #2d1a6e 45%, #234c9c 100%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
     display: flex;
     align-items: center;
     width: 250px;

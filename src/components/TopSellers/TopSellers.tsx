@@ -2,7 +2,6 @@ import React from 'react'
 
 import { ContentContainer } from '../ContentContainer'
 import styles from './TopSellers.module.css'
-import { HeroCardOverlay } from '../HeroCardOverlay/HeroCardOverlay'
 import human from '../../assets/3D-image2.png'
 import { Text } from '../Text/Text'
 import { TopSellerBar } from './TopSellerBar'
@@ -24,10 +23,10 @@ const sellers2 = [
   {id: 10, name: 'Daisy Arnord', price: '265.4 Eth' }
 ]
 
-export const TopSellers = () => {
+export const TopSellers: React.FC<any> = () => {
   return (
 
-    <ContentContainer>
+    <ContentContainer className={styles['seller-section']}>
         <div className={styles['head-cont']}>
             <Text variant='h2'>Top Sellers</Text> 
         </div>
