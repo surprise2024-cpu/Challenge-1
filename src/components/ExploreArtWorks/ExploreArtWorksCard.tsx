@@ -27,7 +27,7 @@ export const ExploreArtWorksCard: React.FC<CardProps> = ({ img1, img2, img3, img
             </div>
 
             <div>
-                <img className={styles.image1} src={img3} alt='image 3'/>
+                <img className={styles.image2} src={img3} alt='image 3'/>
             </div>
 
         </section>

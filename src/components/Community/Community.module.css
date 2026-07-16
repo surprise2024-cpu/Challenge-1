@@ -7,10 +7,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    min-height: 200px;
+    width: 950px;
+    min-height: 80px;
     padding: 40px 60px;
     border-top-left-radius: 150px;
     border-bottom-right-radius: 150px;
@@ -48,5 +46,5 @@
     font-size: 14px;
     cursor: pointer;
     white-space: nowrap;
-    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.1);
 }
