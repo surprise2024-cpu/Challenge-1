@@ -2,9 +2,16 @@ import React from 'react'
 
 import { ContentContainer } from '../ContentContainer'
 import styles from './TopSellers.module.css'
-import human from '../../assets/3D-image2.png'
+
 import { Text } from '../Text/Text'
 import { TopSellerBar } from './TopSellerBar'
+
+import human from '../../assets/3D-image2.png'
+import human2 from '../../assets/man-3.jpg'
+import human3 from '../../assets/woman-3.jpg'
+import human4 from '../../assets/woman-5.jpg'
+import human5 from '../../assets/man2.jpg'
+import human6 from '../../assets/man-3.jpg'
 
 const sellers = [
   {id: 1, name: 'Leighton Kramer', price: '276.7 Eth' },

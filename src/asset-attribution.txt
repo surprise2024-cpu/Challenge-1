@@ -13,7 +13,7 @@ heart: <a href="https://www.flaticon.com/free-icons/red" title="red icons">Red i
 
 abstract art 1: Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/blue-white-and-red-abstract-painting-NTYYL9Eb9y8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 abstract art 2: Photo by <a href="https://unsplash.com/@jenestephaniuk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jené Stephaniuk</a> on <a href="https://unsplash.com/photos/red-blue-and-yellow-abstract-painting--MCrF6hnojU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-      abstract art 3: Photo by <a href="https://unsplash.com/@steve_j?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Steve A Johnson</a> on <a href="https://unsplash.com/photos/abstract-art-painting-eVaxJVA2zHI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+abstract art 3: Photo by <a href="https://unsplash.com/@steve_j?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Steve A Johnson</a> on <a href="https://unsplash.com/photos/abstract-art-painting-eVaxJVA2zHI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 abstract art 4: Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/blue-white-and-red-abstract-painting-NTYYL9Eb9y8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 3D art 1: Photo by <a href="https://unsplash.com/@nuvaproductions?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Javier Miranda</a> on <a href="https://unsplash.com/photos/black-and-silver-round-ball-MrWOCGKFVDg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
@@ -53,8 +53,12 @@ woman 4-Photo by <a href="https://unsplash.com/@aiony?utm_source=unsplash&utm_me
 woman 5- <a href="https://www.magnific.com/free-photo/people-lifestyle-emotions-feelings-cute-positive-dark-skinned-student-woman-casual-wear-stylish-round-eyeglasses-smiling-happily-feeling-excited-about-first-day-university_9440542.htm">Image by wayhomestudio on Magnific</a>
 man 4- <a href="https://www.magnific.com/free-photo/prosperous-businessman-keeps-hands-crossed-has-satisfied-expression_10521289.htm">Image by wayhomestudio on Magnific</a>
 man 5- <a href="https://www.magnific.com/free-photo/attractive-mixed-race-male-with-positive-smile-shows-white-teeth-keeps-hands-stomach-being-high-spirit-wears-white-shirt-rejoices-positive-moments-life-people-emotions-concept_10420306.htm">Image by wayhomestudio on Magnific</a>          
-
-
+man 6-Photo by VIOLA STUDIO PHOTO: https://www.pexels.com/photo/portrait-of-a-teen-in-grey-polo-shirt-31848622/
+man-7-Photo by <a href="https://unsplash.com/@sadswim?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">ian dooley</a> on <a href="https://unsplash.com/photos/man-standing-near-white-wall-d1UPkiFd04A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+woman 6-Photo by <a href="https://unsplash.com/@michaeldam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Michael Dam</a> on <a href="https://unsplash.com/photos/closeup-photography-of-woman-smiling-mEZ3PoFGs_k?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+woman 7-Photo by <a href="https://unsplash.com/@jakenackos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jake Nackos</a> on <a href="https://unsplash.com/photos/woman-in-white-crew-neck-shirt-smiling-IF9TK5Uy-KI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+woman 8-Photo by <a href="https://unsplash.com/@rafaelladiniz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rafaella Mendes Diniz</a> on <a href="https://unsplash.com/photos/blonde-woman-in-black-top-portrait-et_78QkMMQs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                      
 
 
 
