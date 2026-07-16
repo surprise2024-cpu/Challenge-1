@@ -1,6 +1,8 @@
 .community {
     padding-top: 60px;
+    padding-bottom: 50px;
 }
+
 .content {
     position: relative;
     display: flex;
