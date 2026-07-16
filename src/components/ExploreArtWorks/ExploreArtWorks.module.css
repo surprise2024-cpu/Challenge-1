@@ -14,8 +14,9 @@
 
 .card {
     margin: auto;
-     background: linear-gradient(120deg, #0b0626 20%, #2d1a6e 45%, #234c9c 100%);
+    background: linear-gradient(120deg, #0b0626 20%, #2d1a6e 45%, #234c9c 100%);
     width: 250px;
+    height: 210px;
     border-radius: 20px;
     object-fit: cover;
     border: 1px solid rgba(255, 255, 255, 0.08);
@@ -26,7 +27,7 @@
 .first-sec {
     display: flex;
     align-items: center;
-    gap: 1px;
+    gap: 3px;
 }
 
 .image {
@@ -50,6 +51,8 @@
     height: 100px; 
     object-fit: cover;
     display: block;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 .text-sec {
@@ -65,8 +68,7 @@
 }
 
 .items {
-    display: inline-flex;
-    background: #3b82f6;
+    border: 2px solid #0606df;
     border-radius: 20px;
     padding: 4px 12px;
     color: #fff;
