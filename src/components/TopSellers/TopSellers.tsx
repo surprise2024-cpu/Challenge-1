@@ -37,13 +37,13 @@ export const TopSellers = () => {
 
             {
               sellers.map((sel) => (
-                <TopSellerBar image={human} name={sel.name} price={sel.price} />
+                <TopSellerBar key={sel.id} image={human} name={sel.name} price={sel.price} />
               ))
             }
 
             {
               sellers.map((sel) => (
-                <TopSellerBar image={human} name={sel.name} price={sel.price} />
+                <TopSellerBar key={sel.id} image={human} name={sel.name} price={sel.price} />
               ))
             }
 
@@ -52,14 +52,14 @@ export const TopSellers = () => {
           <div className={styles['seller-track2']}>
 
             {
-              sellers2.map((sel) => (
-                <TopSellerBar image={human} name={sel.name} price={sel.price} />
+              sellers2.map((sel2) => (
+                <TopSellerBar key={sel2.id} image={human} name={sel2.name} price={sel2.price} />
               ))
             }
 
             {
-              sellers2.map((sel) => (
-                <TopSellerBar image={human} name={sel.name} price={sel.price} />
+              sellers2.map((sel2) => (
+                <TopSellerBar key={sel2.id} image={human} name={sel2.name} price={sel2.price} />
               ))
             }
 

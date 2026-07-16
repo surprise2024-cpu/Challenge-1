@@ -8,13 +8,17 @@ import human3 from '../../assets/3D-image3.png'
 import human4 from '../../assets/3D-image4.png'
 import { Text } from '../Text/Text'
 
-const items = [
+const originalItems = [
   {id: 1, title: 'Costa', author: 'by Yang', price: '1.75 ETH', likes: '39k', image: human},
   {id: 1, title: 'VERSACE', author: ' by Antoni Tudisco', price: '2.45 ETH', likes: '48k', image: human2},
   {id: 1, title: 'Digital Decade', author: 'by Anthony gargasz', price: '2.45 ETH', likes: '50k', image: human3, featured: true},
   {id: 1, title: 'Winter Jamz', author: 'by Antoni Tudisco', price: '2.3 ETH', likes: '47k', image: human4},
   {id: 1, title: 'Pastal Wifey', author: 'by blake kathryn', price: '2.23 ETH', likes: '44k', image: human}
 ]
+
+const items = [...originalItems, ...originalItems].map((item, i) => (
+  {...item, key: `${item.id}-${i}`}
+))
 
 export const PopularThisWeek: React.FC<any> = () => {
   return (
@@ -27,9 +31,9 @@ export const PopularThisWeek: React.FC<any> = () => {
 
         <div className={styles.images}>
 
-          {items.map((item) => (
+          {items.map((item, i) => (
 
-            <div key={item.id} className={styles.card}>
+            <div key={item.id} className={styles.card} style={{'--i': i % originalItems.length } as React.CSSProperties}>
 
               <img src={item.image} className={styles.image} alt={item.title} />
 

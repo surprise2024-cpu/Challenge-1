@@ -37,13 +37,33 @@
 
 .card {
     position: relative;
+    flex: 0 0 250px;
     width: 250px;
     height: 350px;
     border-radius: 16px;
     overflow: hidden;
+    
+    transform-origin: center center;
+    animation: card-pulse 28s ease-in-out infinite;
+    animation-delay: calc(-23.3s + var(--i) * 5.68s);
+}
 
-    
-    
+@keyframes card-pulse {
+    0%, 47%, 100% {
+        transform: scale(0.86);
+        z-index: 1;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    }
+    50% {
+        transform: scale(1.28);
+        z-index: 10;
+        box-shadow: 0 30px 60px rgba(120, 80, 255, 0.45);
+    }
+    53% {
+        transform: scale(0.86);
+        z-index: 1;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    }
 }
 
 
