@@ -19,10 +19,10 @@ export const Section1 = () => {
 
             <div className={styles['section-text']}>
 
-                <Text variant={'h1'}>Discover, Collect</Text>
-                <Text variant={'h1'}>and Sell Dope</Text>
-                <Text variant={'h1'}>Art and NFTs</Text>
-                <Text variant={'p'}>
+                <Text className={styles['section-text1']} variant={'h1'}>Discover, Collect</Text>
+                <Text  className={styles['section-text2']} variant={'h1'}>and Sell Dope</Text>
+                <Text className={styles['section-text3']}variant={'h1'}>Art and NFTs</Text>
+                <Text className={styles['section-text4']} variant={'span'}>
                     The world's largest digital marketplace for crypto <br/>
                     collections and non fungible tokens (NFTs)
                 </Text>
@@ -70,7 +70,7 @@ export const Section1 = () => {
                 </div>
 
                 <div className={styles['user-stat']}>
-                    <Text variant={'h2'}>40k +</Text>
+                    <Text className={styles['active-users-text']} variant={'h2'}>40k +</Text>
                     <Text className={styles['active-users']} variant={'span'}>Active Users</Text>
                 </div>
                 
