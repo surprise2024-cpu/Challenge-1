@@ -213,8 +213,7 @@
     }
 
     .section-actions {
-        /*padding-left: 0;
-        flex-wrap: wrap;*/
+        
         justify-content: center;
 
         margin-left: auto;
@@ -233,7 +232,7 @@
     }
 
     .users {
-        /*margin-left: 0;*/
+
         justify-content: center;
         width: fit-content;
         margin-left: auto;
