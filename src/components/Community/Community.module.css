@@ -1,6 +1,10 @@
 .community {
     padding-top: 60px;
     padding-bottom: 50px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
 }
 
 .content {
@@ -9,7 +13,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 950px;
+
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
     min-height: 80px;
     padding: 40px 60px;
     border-top-left-radius: 150px;
@@ -20,7 +29,8 @@
 
 
 .text-cont {
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
     margin-bottom: 16px;
 }
 
@@ -30,6 +40,8 @@
     font-weight: 700;
     line-height: 1.25;
     color: #FFF;
+
+    font-size: clamp(20px, 3.5vw, 30px);
 }
 
 .btn-cont {
@@ -49,4 +61,14 @@
     cursor: pointer;
     white-space: nowrap;
     box-shadow: 0 8px 20px rgba(59, 130, 246, 0.1);
+}
+
+@media (max-width: 767px) {
+    .content {
+        border-top-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+        padding: 30px 24px;
+        align-items: center;
+    }
+
 }
