@@ -60,6 +60,9 @@ woman 7-Photo by <a href="https://unsplash.com/@jakenackos?utm_source=unsplash&u
 woman 8-Photo by <a href="https://unsplash.com/@rafaelladiniz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rafaella Mendes Diniz</a> on <a href="https://unsplash.com/photos/blonde-woman-in-black-top-portrait-et_78QkMMQs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                       
 binance-icon: <a target="_blank" href="https://icons8.com/icon/74XminJ8M1Qo/binance">Binance</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+bitfinex-leaf-icon: <a target="_blank" href="https://icons8.com/icon/10118/leaf">Leaf</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+blockchain-icon: <a target="_blank" href="https://icons8.com/icon/79123/blockchain-new-logo">blockchain logo</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+exodus-x-icon: <a target="_blank" href="https://icons8.com/icon/oyaJ6tgoI7yR/x-vpn">X Vpn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 
 
