@@ -1,9 +1,9 @@
 search icon: <a href="https://www.flaticon.com/free-icons/magnifier" title="magnifier icons">Magnifier icons created by meaicon - Flaticon</a>
 close icon: <a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by inkubators - Flaticon</a>
-instagram icon: <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by edt.im - Flaticon</a>
-X icon: <a href="https://www.flaticon.com/free-icons/tweet" title="tweet icons">Tweet icons created by Freepik - Flaticon</a>
-facebook icon: <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Indygo - Flaticon</a>
-discord icon: <a href="https://www.flaticon.com/free-icons/discord" title="discord icons">Discord icons created by LAFS - Flaticon</a>
+instagram icon: <a target="_blank" href="https://icons8.com/icon/32292/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+X icon: <a target="_blank" href="https://icons8.com/icon/fJp7hepMryiw/x">X</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+facebook icon: <a target="_blank" href="https://icons8.com/icon/118467/facebook">Facebook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+discord icon: <a target="_blank" href="https://icons8.com/icon/30888/discord">Discord</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 video-icon: <a href="https://www.flaticon.com/free-icons/blue" title="blue icons">Blue icons created by hqrloveq - Flaticon</a>
 man photo: <a href="https://www.magnific.com/free-photo/young-bearded-man-with-striped-shirt_9660042.htm">Image by wayhomestudio on Magnific</a>
 man2 photo: <a href="https://www.magnific.com/free-photo/lifestyle-summer-people-emotions-concept-enthusiastic-handsome-male-model-with-happy-smile-white-teeth-standing-casual-t-shirt-yellow-background-satisfied_17128387.htm#fromView=search&page=1&position=11&uuid=23ee06e0-3cae-4590-9b86-73dd7fce7f77&query=+man+smile">Image by benzoix on Magnific</a>
@@ -59,6 +59,7 @@ woman 6-Photo by <a href="https://unsplash.com/@michaeldam?utm_source=unsplash&u
 woman 7-Photo by <a href="https://unsplash.com/@jakenackos?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jake Nackos</a> on <a href="https://unsplash.com/photos/woman-in-white-crew-neck-shirt-smiling-IF9TK5Uy-KI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 woman 8-Photo by <a href="https://unsplash.com/@rafaelladiniz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rafaella Mendes Diniz</a> on <a href="https://unsplash.com/photos/blonde-woman-in-black-top-portrait-et_78QkMMQs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                       
+binance-icon: <a target="_blank" href="https://icons8.com/icon/74XminJ8M1Qo/binance">Binance</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
 
 

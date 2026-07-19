@@ -4,10 +4,10 @@ import { ContentContainer } from '../ContentContainer'
 import styles from './Footer.module.css'
 import { Text } from '../Text/Text'
 
-import xIcon from '../../assets/X.png'
-import facebookIcon from '../../assets/facebook.png'
-import instaIcon from '../../assets/insta.png'
-import discordIcon from '../../assets/discord.png'
+import xIcon from '../../assets/icons8-x-twitter-50.png'
+import facebookIcon from '../../assets/icons8-facebook-50.png'
+import instaIcon from '../../assets/icons8-instagram-50.png'
+import discordIcon from '../../assets/icons8-discord-50.png'
 
 
 
