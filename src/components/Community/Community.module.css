@@ -63,6 +63,10 @@
     box-shadow: 0 8px 20px rgba(59, 130, 246, 0.1);
 }
 
+.comm-btn:hover {
+    filter: brightness(1.08);
+}
+
 @media (max-width: 767px) {
     .content {
         border-top-left-radius: 60px;

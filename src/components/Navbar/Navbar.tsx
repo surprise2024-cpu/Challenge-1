@@ -41,12 +41,12 @@ export const Navbar: React.FC<any> = () => {
           </div>
 
         <button className={`${styles.hamburger} ${isOpen ? styles['hamburger-open'] : ''}`} 
-        onClick={() => setIsOpen(!isOpen)}
-        aria-label='Toggle menu'
-        aria-expanded={isOpen}>
-        <span />
-        <span />
-        <span />
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label='Toggle menu'
+          aria-expanded={isOpen}>
+          <span />
+          <span />
+          <span />
         </button> 
         
         {

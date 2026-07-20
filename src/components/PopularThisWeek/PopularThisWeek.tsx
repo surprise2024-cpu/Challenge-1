@@ -6,6 +6,8 @@ import human from '../../assets/3D-image1.png'
 import human2 from '../../assets/3D-image2.png'
 import human3 from '../../assets/3D-image3.png'
 import human4 from '../../assets/3D-image4.png'
+import heart from '../../assets/heart.png'
+
 import { Text } from '../Text/Text'
 
 const originalItems = [
@@ -49,7 +51,7 @@ export const PopularThisWeek: React.FC<any> = () => {
                 <div className={styles.meta}>
 
                   <div className={styles.price}>{item.price}</div>
-                  <div className={styles.likes}>{item.likes}</div>
+                  <div className={styles.likes}>{}{item.likes}</div>
 
                 </div>
 
