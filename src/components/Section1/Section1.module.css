@@ -197,8 +197,9 @@
         flex-direction: column;
         justify-content: center;
         min-height: auto;
-        padding: 110px 24px 60px;
-        gap: 40px;
+        padding: 100px 24px 200px;
+        gap: 100px;
+        max-width: fit-content;
     }
 
     .section1-info {
