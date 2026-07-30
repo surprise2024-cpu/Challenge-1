@@ -35,7 +35,7 @@ const sellers2 = [
   {id: 10, name: 'Daisy Arnord', price: '265.4 Eth', image: human10 }
 ]
 
-export const TopSellers: React.FC<any> = () => {
+export const TopSellers: React.FC = () => {
   return (
 
     <ContentContainer className={styles['seller-section']}>

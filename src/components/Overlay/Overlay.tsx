@@ -1,7 +1,5 @@
 import React from 'react'
 
-import styles from './Overlay.module.css'
-
 type OverlayProps = {
     children: React.ReactNode
 }

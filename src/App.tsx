@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 
 import { Navbar } from './components/Navbar/Navbar'
@@ -11,7 +11,6 @@ import { ExploreArtWorks } from './components/ExploreArtWorks/ExploreArtWorks'
 import { Community } from './components/Community/Community'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div id='app-container'>
