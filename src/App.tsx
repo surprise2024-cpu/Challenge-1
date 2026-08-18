@@ -6,9 +6,9 @@ import { Footer } from './components/Footer/Footer'
 import { Section1 } from './components/Section1/Section1'
 import { Band } from './components/Band/Band'
 import { PopularThisWeek } from './components/PopularThisWeek/PopularThisWeek'
-import { TopSellers } from './components/TopSellers/TopSellers'
 import { ExploreArtWorks } from './components/ExploreArtWorks/ExploreArtWorks'
 import { Community } from './components/Community/Community'
+import { TopSellers } from './components/TopSellers/TopSellers'
 
 function App() {
 
