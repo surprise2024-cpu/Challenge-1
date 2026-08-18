@@ -1,4 +1,4 @@
-search icon: <a href="https://www.flaticon.com/free-icons/magnifier" title="magnifier icons">Magnifier icons created by meaicon - Flaticon</a>
+search icon: <a href="https://www.flaticon.com/free-icons/magnifying-glass" title="magnifying glass icons">Magnifying glass icons created by heisenberg_jr - Flaticon</a>
 close icon: <a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by inkubators - Flaticon</a>
 instagram icon: <a target="_blank" href="https://icons8.com/icon/32292/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 X icon: <a target="_blank" href="https://icons8.com/icon/fJp7hepMryiw/x">X</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

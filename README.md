@@ -1,75 +1,154 @@
-# React + TypeScript + Vite
+PlayNFT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clone of the PlayNFT ,marketplace landing page, built component by component in React + TypeScript with Css Modules. This project focuses on translating a static design referece into a responsive real feel UI.
 
-Currently, two official plugins are available:
+![PlayNFT HeroSection](/src/assets/hero-preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features:
 
-## React Compiler
+Responsive navbar, with active-route underline animation and live search bar.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hero section, with gradient CTA buttons, a stats pill, and a stacked avatar group
 
-## Expanding the ESLint configuration
+Interactive bid card (HeroCardOverlay) - full bleed artwork with an absolutely-positioned gradient scrim, static countdown/bid values, and clickable actions.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Auto-scrolling partner and top sellers marquee - infinite loop built with duplicated content + CSS (translate) animation, pausable on hover.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+"Popular this week" carousal - data-driven NFT cards with raised, larger featured card.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Explore artworks - cards with different categories of artworks.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Footer, with a 4 column link grid and social icons.
 
-```
+Dark, glow-accented theme using layered (radical-gradient) backgrounds.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Preview:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+![PlayNFT HeroSection](/src/assets/hero-preview.png)
+![PlayNFT HeroSection](/src/assets/popular-preview.png)
+![PlayNFT HeroSection](/src/assets/footer-preview.png)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+<details>
+  <summary>Original design reference</summary>
+  <br/>
+  <img src="/src/assets/reference-design.jpg">
+</details>
 
-```
+Tech Stack;
+
+Framework:  React + TypeScript
+Styling:  CSS Modules
+Bundler: Vite
+Fonts: Poppins, Baloo 2/Fredoka
+
+Project Structure
+
+src/
+  assets/
+  components/
+    Band/
+marquee
+      Band.tsx
+      Bandbar.tsx
+      Band.module.css
+    Community/
+      Community.module.css
+      Community.tsx
+    ExploreArtWorks/
+      ExploreArtWorks.module.css
+      ExploreArtWorks.tsx
+      ExploreArtWorksCard.tsx
+    Footer/
+      Footer.module.css
+      Footer.tsx
+    HeroCardOverlay/
+      HeroCardOverlay.module.css
+      HeroCardOverlay.tsx
+    Navbar/
+      Navbar.module.css
+      Navbar.tsx
+    Overlay/
+      Overlay.module.css
+      Overlay.tsx
+    PopularThisWeek/
+      PopularThisWeek.module.css
+      PopularThisWeek.tsx
+    Register/
+      Register.module.css
+      Register.tsx
+    Search/
+      Search.module.css
+      Search.tsx
+      Searchbar.tsx
+    Section1
+      Section1.module.css
+      Section1.tsx
+    Text/
+      Text.module.css
+      Text.tsx
+    TopSellers
+      TopSellersBar.tsx
+      TopSellers.module.css
+      TopSellers.tsx
+    ContentContainer/
+  App.css
+  App.tsx
+  asset-attribution.txt
+  index.css
+  main.tsx
+.gitignore
+eslint.config.js
+index.html
+package-lock.json
+package.json
+README.md
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
+
+Getting Started
+
+  Prerequisites
+    Node.js 18+
+    npm
+
+  Installation
+    git clone https://github.com/surprise2024-cpu/Challenge-1.git
+
+    cd playnft
+
+    npm install
+
+  Development
+    npm run dev
+
+    Visit http://localhost:5173 to view the app.
+
+  Build
+    npm run build
+    npm run preview
+
+Component Notes:
+
+  Band/Bandbar - the partner marquee duplicates the partner list once and animates the combined track with (Transform: translateX(-50)) on an infinite loop. The row pauses on hover via (animation-play-state: paused).
+
+  HeroCardOverlay - takes (image, endingIn, highestBid), and as props rather than hardcoding any NFT's data, so that it can be reused across multiple cards (e.g. the "Popular this weeo" row) by just passing different data in.
+
+  PopularThisWeek - renders from a types array of NFT object; a card is emphasized either via a (featured) flag per item or a positional (:nth-child) rule.
+
+Design Tokens:
+  --accent-purple: #8b5cf6;
+  --accent-blue: #4f7cf7;
+  --bg-deep: #05061a;
+  --text-light: #ffffff;
+  --text-muted: #9a9ac2;
+
+Primary gardient used across CTAs, badges and highlights:
+  background: linear-gradient(90deg, #8b5cf6 0%, #4f7cf7 100%);
+  
+Roadmap
+  Live countdown timer on the bid card (currently a static string).
+  "Popular this week" data sourced from an API instead of local array.
+  Marketplace, Explore, Artists and News pages
+  Wallet connect flow for Place a Bid / Purchase actions
