@@ -8,7 +8,7 @@ import { Band } from './components/Band/Band';
 import { PopularThisWeek } from './components/PopularThisWeek/PopularThisWeek';
 import { ExploreArtWorks } from './components/ExploreArtWorks/ExploreArtWorks';
 import { Community } from './components/Community/Community';
-import { TopSellers } from './components/TopSellers/TopSellers';
+import { TopSellers } from './components/TopSellers/TopSellers.tsx';
 
 
 function App() {
