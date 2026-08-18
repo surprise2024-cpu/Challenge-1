@@ -1,4 +1,3 @@
-import React from 'react'
 
 import { ContentContainer } from '../ContentContainer'
 import styles from './ExploreArtWorks.module.css'
@@ -13,10 +12,10 @@ import art2 from '../../assets/3D-2.jpg'
 import art3 from '../../assets/3D-3.jpg'
 import art4 from '../../assets/3D-4.jpg'
 
-import modern1 from '../../assets/modern-4.jpg'
-import modern2 from '../../assets/modern-2.jpg'
-import modern3 from '../../assets/modern-3.jpg'
-import modern4 from '../../assets/modern-1.jpg'
+import modern1 from '../../assets/modernArt1.jpg'
+import modern2 from '../../assets/modernArt2.jpg'
+import modern3 from '../../assets/modernArt3.jpg'
+import modern4 from '../../assets/modernArt4.jpg'
 
 import game1 from '../../assets/game-4.jpg'
 import game2 from '../../assets/game-2.jpg'
@@ -25,13 +24,13 @@ import game4 from '../../assets/game-1.jpg'
 
 import graf1 from '../../assets/graffiti-1.jpg'
 import graf2 from '../../assets/graffiti-2.jpg'
-import graf3 from '../../assets/graffiti-3.jpg'
+import graf3 from '../../assets/graffitiArt3.jpg'
 import graf4 from '../../assets/graffiti-4.jpg'
 
-import water1 from '../../assets/watercolor-4.jpg'
-import water2 from '../../assets/watercolor-2.jpg'
-import water3 from '../../assets/watercolor-3.jpg'
-import water4 from '../../assets/watercolor-1.jpg'
+import water1 from '../../assets/waterColor4.jpg'
+import water2 from '../../assets/waterColor1.jpg'
+import water3 from '../../assets/waterColor3.jpg'
+import water4 from '../../assets/waterColor2.jpg'
 
 import { Text } from '../Text/Text'
 import { ExploreArtWorksCard } from './ExploreArtWorksCard'
