@@ -6,9 +6,10 @@ import image1 from '../../assets/3D-image1.png'
 import { HeroCardOverlay } from '../HeroCardOverlay/HeroCardOverlay'
 import videoIcon from '../../assets/video-icon.png'
 import man1 from '../../assets/man1.jpg'
-import man2 from '../../assets/man2.jpg'
+import man2 from '../../assets/man5.jpg'
 import woman1 from '../../assets/woman1.jpg'
-import woman2 from '../../assets/woman1.jpg'
+import woman2 from '../../assets/woman2.jpg'
+import woman3 from '../../assets/woman3.jpg'
 import { ContentContainer } from '../ContentContainer'
 
 export const Section1 = () => {
@@ -67,7 +68,7 @@ export const Section1 = () => {
                     <img src={man2} alt='picture of a man' className={styles.user}/>
                     <img src={woman1} alt='picture of a woman' className={styles.user}/>
                     <img src={woman2} alt='picture of a woman' className={styles.user}/>
-                    <img src={woman2} alt='picture of a woman' className={styles.user}/>
+                    <img src={woman3} alt='picture of a woman' className={styles.user}/>
                 </div>
 
                 <div className={styles['user-stat']}>
