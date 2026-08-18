@@ -10,6 +10,7 @@ import { ExploreArtWorks } from './components/ExploreArtWorks/ExploreArtWorks';
 import { Community } from './components/Community/Community';
 import { TopSellers } from './components/TopSellers/TopSellers';
 
+
 function App() {
 
   return (
