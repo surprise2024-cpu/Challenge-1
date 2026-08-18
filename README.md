@@ -25,7 +25,7 @@ Dark, glow-accented theme using layered (radical-gradient) backgrounds.
 Preview:
 
 ![PlayNFT HeroSection](/src/assets/hero-preview.png)
-![PlayNFT HeroSection](/src/assets/popular-preview.png)
+![PlayNFT HeroSection](/src/assets/popularThisWeek.png)
 ![PlayNFT HeroSection](/src/assets/footer-preview.png)
 
 <details>
