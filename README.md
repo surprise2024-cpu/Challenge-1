@@ -44,13 +44,13 @@ Tech Stack:
 | Fonts:  | Poppins, Baloo 2/Fredoka |
 
 Project Structure:
-
-src/
-
-  assets/
-
-  components/
-
+  
+    src/
+    
+    assets/
+    
+    components/
+    
     Band/
 
 marquee
@@ -123,36 +123,36 @@ marquee
       TopSellers.tsx
 
     ContentContainer/
-
-  App.css
-
-  App.tsx
-
-  asset-attribution.txt
-
-  index.css
-
-  main.tsx
-
-.gitignore
-
-eslint.config.js
-
-index.html
-
-package-lock.json
-
-package.json
-
-README.md
-
-tsconfig.app.json
-
-tsconfig.json
-
-tsconfig.node.json
-
-vite.config.ts
+    
+    App.css
+    
+    App.tsx
+    
+    asset-attribution.txt
+    
+    index.css
+    
+    main.tsx
+    
+    .gitignore
+    
+    eslint.config.js
+    
+    index.html
+    
+    package-lock.json
+    
+    package.json
+    
+    README.md
+    
+    tsconfig.app.json
+    
+    tsconfig.json
+    
+    tsconfig.node.json
+    
+    vite.config.ts
 
 Getting Started:
 
