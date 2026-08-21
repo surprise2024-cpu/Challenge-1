@@ -206,6 +206,7 @@ Primary gardient used across CTAs, badges and highlights:
 
   background: linear-gradient(90deg, #8b5cf6 0%, #4f7cf7 100%);
   
+  
 Roadmap:
 
   Live countdown timer on the bid card (currently a static string).
