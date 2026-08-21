@@ -184,12 +184,16 @@ Getting Started:
 
 Component Notes:
 
+|||
+|---|---|
 | Band/Bandbar | The partner marquee duplicates the partner list once and animates the combined track with (Transform: translateX(-50)) on an infinite loop. The row pauses on hover via (animation-play-state: paused). |
 | HeroCardOverlay | Takes (image, endingIn, highestBid), and as props rather than hardcoding any NFT's data, so that it can be reused across multiple cards (e.g. the "Popular this weeo" row) by just passing different data in. | 
 | PopularThisWeek | Renders from a types array of NFT object; a card is emphasized either via a (featured) flag per item or a positional (:nth-child) rule. |
 
 Design Tokens:
 
+|||
+|---|---|
 | --accent-purple: | #8b5cf6; |
 | --accent-blue: | #4f7cf7; |
 | --bg-deep: | #05061a; |
