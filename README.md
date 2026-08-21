@@ -36,21 +36,12 @@ Preview:
 
 Tech Stack:
 
-  Framework:  
-
-  React + TypeScript
-
-  Styling:  
-
-  CSS Modules
-
-  Bundler:
-
-  Vite
-
-  Fonts: 
-
-  Poppins, Baloo 2/Fredoka
+| | |
+|---|---|
+| Framework:| React + TypeScript | 
+| Styling: | CSS Modules |
+| Bundler: | Vite |
+| Fonts:  | Poppins, Baloo 2/Fredoka |
 
 Project Structure:
 
