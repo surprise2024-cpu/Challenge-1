@@ -6,7 +6,7 @@ import { ContentContainer } from '../ContentContainer'
 
 
 
-export const Community = () => {
+export const Community: React.FC = () => {
   return (
     <div className={styles.community}>
 
