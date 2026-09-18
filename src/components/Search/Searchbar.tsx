@@ -3,7 +3,7 @@ import React from 'react'
 import styles from './Search.module.css'
 import searchIcon from '../../assets/search.png'
 
-export const Searchbar = () => {
+export const Searchbar: React.FC = () => {
   return (
     <div className={styles['search-bar']}>
         <img src={searchIcon} alt='search icon' className={styles['search-icon']}/>
