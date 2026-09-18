@@ -18,7 +18,7 @@ const linkColumns = [
     {id: 4, heading: 'Company', links: ['About', 'Careers', 'Ranking', 'Activity']}
 ]
 
-export const Footer = () => {
+export const Footer: React.FC = () => {
   return (
     <footer>
         <ContentContainer className={styles['footer-cont']}>
