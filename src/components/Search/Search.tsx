@@ -4,7 +4,7 @@ import styles from './Search.module.css'
 import {Searchbar} from './Searchbar'
 import { ContentContainer } from '../ContentContainer'
 
-export const Search = () => {
+export const Search: React.FC = () => {
   return (
     <div className={styles['search-container']}>
         <ContentContainer className={styles['searchbar-container']}>
