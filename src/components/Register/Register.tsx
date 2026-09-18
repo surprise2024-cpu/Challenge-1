@@ -3,7 +3,7 @@ import { Overlay }  from '../Overlay/Overlay'
 
 
 
-export const Register = () => {
+export const Register: React.FC = () => {
   return (
     <Overlay>
         
