@@ -18,7 +18,7 @@ const partners = [
     {id: 7, name: 'BlockChain', img: blockchain}
 ]
 
-export const Band = () => {
+export const Band: React.FC = () => {
   return (
     <div className={styles['band-container']}>
         <div className={styles['band-track']}>
