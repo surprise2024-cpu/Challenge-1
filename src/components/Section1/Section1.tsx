@@ -22,7 +22,7 @@ export const Section1: React.FC = () => {
 
                 <Text className={styles['section-text1']} variant={'h1'}>Discover, Collect</Text>
                 <Text  className={styles['section-text2']} variant={'h1'}>and Sell Dope</Text>
-                <Text className={styles['section-text3']}variant={'h1'}>Art and NFTs</Text>
+                <Text className={styles['section-text3']} variant={'h1'}>Art and NFTs</Text>
                 <Text className={styles['section-text4']} variant={'span'}>
                     The world's largest digital marketplace for crypto <br/>
                     collections and non fungible tokens (NFTs)
