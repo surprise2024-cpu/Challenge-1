@@ -21,7 +21,7 @@ export const Navbar: React.FC<any> = () => {
 
           </Text>
 
-          // need these links to navlink
+          {/*need these links to navlink*/}
           <div className={`${styles['links']} ${isOpen ? styles['links-open'] : ''}`}>
               <a href='#/' className={`${styles.link} ${styles.active}`}>Home</a>
               <a href='#/' className={styles.link}>Explore</a>
