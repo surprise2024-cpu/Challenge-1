@@ -10,6 +10,7 @@ import heart from '../../assets/heart.png'
 
 import { Text } from '../Text/Text'
 
+// hearts need to be added to thw likes section
 const originalItems = [
   {id: 1, title: 'Costa', author: 'by Yang', price: '1.75 ETH', likes: '39k', image: human},
   {id: 1, title: 'VERSACE', author: ' by Antoni Tudisco', price: '2.45 ETH', likes: '48k', image: human2},
@@ -52,7 +53,7 @@ export const PopularThisWeek: React.FC<any> = () => {
 
                   <div className={styles.price}>{item.price}</div>
                   <div className={styles.likes}>{}{item.likes}</div>
-
+                  {/*Heart needs to be added above */}
                 </div>
 
               </div>

@@ -12,7 +12,7 @@ import woman2 from '../../assets/woman2.jpg'
 import woman3 from '../../assets/woman3.jpg'
 import { ContentContainer } from '../ContentContainer'
 
-export const Section1 = () => {
+export const Section1: React.FC = () => {
   return (
     <ContentContainer className={styles['section1-container']}>
 
