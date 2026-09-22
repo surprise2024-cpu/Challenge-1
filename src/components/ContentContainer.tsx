@@ -9,9 +9,7 @@ export const ContentContainer: React.FC<Props> = ({ children, className }) => {
   return (
     <div 
       className={`content-container ${className} ?? '' `} 
-      style={{ maxWidth: 1200, margin: 'auto' }}
     >
-
       {children}
 
     </div>
