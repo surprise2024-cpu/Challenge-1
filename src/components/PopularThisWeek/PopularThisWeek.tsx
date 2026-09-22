@@ -28,6 +28,11 @@ export const PopularThisWeek: React.FC = () => {
 
   const [activeIndex, setActiveIndex] = useState(0);
 
+  /*
+  Checks which cards are closest to the middle of th carousel.
+  A card gets bigger as it moves toward the center,
+  then gets smaller again after it passes the center.
+  */
   useEffect(() => {
 
     let animationFrame: number;

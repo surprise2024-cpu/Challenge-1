@@ -30,6 +30,11 @@
     animation-play-state: paused;
 }
 
+/*
+We duplicate the cards in the component.
+Moving the row hlafwat to the left makes th second 
+copy take over, which creates the endless scrolling effect.
+*/
 @keyframes scroll-left {
     0% {
         transform: translateX(0%);
