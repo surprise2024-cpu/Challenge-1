@@ -15,7 +15,6 @@ body {
     min-height: 100vh;
     position: relative;
     width: 100%;
-    padding-bottom: 0;
     margin: 0 auto;
     background: 
         radial-gradient(ellipse 900px 600px at 0% 10%, rgba(27, 69, 135, 0.6), transparent 90%),
