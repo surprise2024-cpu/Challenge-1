@@ -23,19 +23,23 @@ export const Footer: React.FC = () => {
     <footer>
         <ContentContainer className={styles['footer-cont']}>
             <div className={styles['footer-div1']}>
+
                 <Text variant='h2' style={{ margin: 0 }} className={styles['logo']}>PLAY <span className={styles['logo-badge']}>NFT</span></Text>
+                
                 <Text variant={'p'} className={styles['description']}>
-                    The worlds larest digital marketplace for crypto collections
-                    and non fungible tokens (NFTs) but, sell and discover
-                    exclusive digital assets 
+
+                    The world's largest digital marketplace for crypto collections
+                    and non-fungible tokens (NFTs). Buy, sell and discover
+                    exclusive digital assets. 
+
                 </Text>
 
                 <div className={styles.socials}>
 
-                    <img src={xIcon} className={styles['social-link']} />
-                    <img src={instaIcon} className={styles['social-link']} />
-                    <img src={facebookIcon} className={styles['social-link']} />
-                    <img src={discordIcon} className={styles['social-link']} />
+                    <img src={xIcon} alt='X' className={styles['social-link']} />
+                    <img src={instaIcon} alt='Instagram' className={styles['social-link']} />
+                    <img src={facebookIcon} alt='Facebook' className={styles['social-link']} />
+                    <img src={discordIcon} alt='Discord' className={styles['social-link']} />
 
                 </div>
 
@@ -49,7 +53,13 @@ export const Footer: React.FC = () => {
                             <Text variant={'h2'} className={styles['column-heading']}>{col.heading}</Text>
 
                             {col.links.map((link) => (
-                                <a href='#/' className={styles.link} key={col.id}>{link}</a>
+                                <a 
+                                    href='#/' 
+                                    className={styles.link} 
+                                    key={link}
+                                >
+                                    {link}
+                                </a>
 
                             ))}
                         </div>
