@@ -15,8 +15,10 @@ function App() {
 
   return (
     <div id='app-container'>
-      <div id='scrollable'>
-        <Navbar />
+
+      <Navbar />
+
+      <main id='scrollable'>
         
         <Section1 />
 
@@ -30,7 +32,7 @@ function App() {
 
         <Community />
 
-      </div>
+      </main>
       
       <Footer />
 
