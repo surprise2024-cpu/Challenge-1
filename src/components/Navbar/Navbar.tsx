@@ -4,9 +4,13 @@ import { Text } from '../Text/Text'
 import { ContentContainer } from '../ContentContainer'
 import { Search } from '../Search/Search'
 
-export const Navbar: React.FC<any> = () => {
+export const Navbar: React.FC = () => {
 
   const [isOpen, setIsOpen] = useState(false)
+
+  const closeMenu = () => {
+    setIsOpen(false)
+  }
 
   return (
     <nav>
@@ -23,11 +27,41 @@ export const Navbar: React.FC<any> = () => {
 
           {/*need these links to navlink*/}
           <div className={`${styles['links']} ${isOpen ? styles['links-open'] : ''}`}>
-              <a href='#/' className={`${styles.link} ${styles.active}`}>Home</a>
-              <a href='#/' className={styles.link}>Explore</a>
-              <a href='#/' className={styles.link}>Marketplace</a>
-              <a href='#/' className={styles.link}>Artists</a>
-              <a href='#/' className={styles.link}>News</a>
+              <a 
+                href='#/' 
+                className={`${styles.link} ${styles.active}`}
+                onClick={closeMenu}
+              >
+                Home
+              </a>
+              <a 
+                href='#/' 
+                className={styles.link}
+                onClick={closeMenu}
+              >
+                Explore
+              </a>
+              <a 
+                href='#/' 
+                className={styles.link}
+                onClick={closeMenu}
+              >
+                Marketplace
+              </a>
+              <a 
+                href='#/' 
+                className={styles.link}
+                onClick={closeMenu}
+              >
+                Artists
+              </a>
+              <a 
+                href='#/' 
+                className={styles.link}
+                onClick={closeMenu}
+              >
+                News
+              </a>
 
             <div className={styles['mobile-actions']}>
               <Search />
