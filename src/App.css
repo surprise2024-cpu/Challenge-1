@@ -16,13 +16,45 @@ body {
     position: relative;
     width: 100%;
     margin: 0 auto;
+
     background: 
-        radial-gradient(ellipse 900px 600px at 0% 10%, rgba(27, 69, 135, 0.6), transparent 90%),
-        radial-gradient(ellipse 900px 700px at 100% 25%, rgba(31, 64, 136, 0.6), transparent 90%),
-        radial-gradient(ellipse 900px 600px at 50% 45%, rgba(27, 69, 135, 0.6), transparent 75%),
-        radial-gradient(ellipse 900px 700px at 100% 75%, rgba(31, 64, 136, 0.6), transparent 90%),
-        radial-gradient(ellipse 900px 700px at 0% 95%, rgba(31, 64, 136, 0.6), transparent 80%),
-        #060318;
+        radial-gradient(
+            ellipse 900px 600px at 0% 10%,
+            rgba(27, 69, 135, 0.6), 
+            transparent 90%),
+
+        radial-gradient(
+            ellipse 900px 700px at 100% 25%, 
+            rgba(31, 64, 136, 0.6), 
+            transparent 90%),
+
+        radial-gradient(
+            ellipse 900px 600px at 50% 45%, 
+            rgba(27, 69, 135, 0.6), 
+            transparent 75%),
+
+        /*radial-gradient(
+            ellipse 1000px 500px at 50% 60%, 
+            rgba(48, 56, 150, 0.35), 
+            transparent 75%),*/
+
+        radial-gradient(
+            ellipse 900px 700px at 100% 75%, 
+            rgba(31, 64, 136, 0.6), 
+            transparent 90%),
+
+        radial-gradient(
+            ellipse 900px 700px at 0% 95%, 
+            rgba(31, 64, 136, 0.6), 
+            transparent 80%),
+
+        linear-gradient(
+            180deg,
+            #090525 0%,
+            #0b0828 35%,
+            #08051f 70%,
+            #060318 100%
+        );
 
     overflow-x: hidden;
     font-family: 'Fredoka', sans-serif;

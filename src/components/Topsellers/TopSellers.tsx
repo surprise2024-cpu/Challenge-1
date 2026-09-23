@@ -42,7 +42,9 @@ export const TopSellers: React.FC = () => {
 
     <ContentContainer className={styles['seller-section']}>
         <div className={styles['head-cont']}>
-            <Text variant='h2'>Top Sellers</Text> 
+
+          <Text variant='h2'>Top Sellers</Text> 
+
         </div>
 
         {/* Two scroling rows of the seller cards. */}
