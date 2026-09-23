@@ -35,7 +35,7 @@ import water4 from '../../assets/waterColor2.jpg'
 import { Text } from '../Text/Text'
 import { ExploreArtWorksCard } from './ExploreArtWorksCard'
 
-
+// Section that lets users browse different types of NFT artworks.
 export const ExploreArtWorks = () => {
   return (
 
@@ -44,6 +44,7 @@ export const ExploreArtWorks = () => {
             <Text variant='h2'>Explore Artworks</Text> 
         </div>
 
+        {/*Each card shows a different artwork category with four preview images. */}
         <div className={styles['card-cont']}>
 
 
