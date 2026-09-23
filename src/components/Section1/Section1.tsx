@@ -12,6 +12,7 @@ import woman2 from '../../assets/woman2.jpg'
 import woman3 from '../../assets/woman3.jpg'
 import { ContentContainer } from '../ContentContainer'
 
+// Hero section shown at the top of the landing page.
 export const Section1: React.FC = () => {
   return (
     <ContentContainer className={styles['section1-container']}>
@@ -30,6 +31,7 @@ export const Section1: React.FC = () => {
 
             </div>
             
+            {/* Main action buttons and video link. */}
             <div className={styles['section-actions']}>
 
                 <button className={styles['section1-btn1']}>Discover</button>
@@ -42,6 +44,7 @@ export const Section1: React.FC = () => {
                 
             </div>
 
+            {/* Marketplace stats shown below the action buttons. */}
             <div className={styles['stats']}>
 
                 <div className={styles.stat}>
@@ -61,6 +64,7 @@ export const Section1: React.FC = () => {
 
             </div>
 
+            {/* Shows example user avatars and the active user count. */}
             <div className={styles['users']}>
 
                 <div className={styles['user-images']}>
@@ -79,6 +83,7 @@ export const Section1: React.FC = () => {
             </div>
         </div>
 
+        {/* Featured NFT card shown on the right side of the hero section. */}
         <div className={styles['section1-image']}>
             <HeroCardOverlay image={image1} imageAlt={'NFT Artwork'} endingIn={'1h 20m 30s'} highestBid={'32.4 ETH'} />
         </div>
