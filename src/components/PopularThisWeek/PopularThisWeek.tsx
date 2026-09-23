@@ -10,6 +10,7 @@ import heart from '../../assets/heart.png'
 
 import { Text } from '../Text/Text'
 
+// Main set of NFT card shown in the carousel.
 const originalItems = [
   {id: 1, title: 'Costa', author: 'by Yang', price: '1.75 ETH', likes: '39k', image: human},
   {id: 2, title: 'VERSACE', author: ' by Antoni Tudisco', price: '2.45 ETH', likes: '48k', image: human2},
@@ -18,10 +19,12 @@ const originalItems = [
   {id: 5, title: 'Pastal Wifey', author: 'by blake kathryn', price: '2.23 ETH', likes: '44k', image: human}
 ]
 
+// Repeats the cards so the carousel can keep scrolling without an empty gap.
 const items = [...originalItems, ...originalItems]
 
 export const PopularThisWeek: React.FC = () => {
 
+  {/* Keeps track of the carousel and each card on the screen */}
   const carouselRef = useRef<HTMLDivElement>(null);
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
 
@@ -46,7 +49,7 @@ export const PopularThisWeek: React.FC = () => {
 
       const carouselRect = carousel.getBoundingClientRect();
 
-      // calculates the carousels center
+      // Finds the middle point of the carousel.
       const carouselCenter = carouselRect.left + carouselRect.width / 2;
 
       let closestIndex = 0
@@ -63,7 +66,7 @@ export const PopularThisWeek: React.FC = () => {
         
         const cardCenter = cardRect.left + cardRect.width / 2;
 
-        // whichever card has the smallest distance is the nearest to the center
+        // Measures how far this card is from the middle.
         const distance = Math.abs(carouselCenter - cardCenter);
 
         if (distance < closestDistance) {
@@ -105,7 +108,7 @@ export const PopularThisWeek: React.FC = () => {
 
             {items.map((item, index) => (
 
-            // styles.active, automatically gives the center card the enlarged style
+            // The card closest to the middle gets the active enlarged style.
             <div 
               key={`${item.id}-${index}`} 
               className={`${styles.card} ${activeIndex === index ? styles.active : ''}`}
@@ -133,7 +136,6 @@ export const PopularThisWeek: React.FC = () => {
                     
                   </div>
 
-                  {/*Heart needs to be added above */}
                 </div>
 
               </div>
