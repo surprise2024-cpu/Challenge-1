@@ -8,6 +8,7 @@ import blockchain from '../../assets/icons8-blockchain-logo-50.png'
 import bitfinex from '../../assets/icons8-leaf-50.png'
 import exodus from '../../assets/icons8-x-vpn-50.png'
 
+// Logos and names shown in the scrolling partner band.
 const partners = [
     {id: 1, name: 'Paypal'},
     {id: 2, name: 'coinbase'},
@@ -22,6 +23,11 @@ export const Band: React.FC = () => {
   return (
     <div className={styles['band-container']}>
         <div className={styles['band-track']}>
+
+            {/*
+                We repeat the partner list everal times so the logos
+                keep flowing across the screen without leaving an empty gap.   
+            */}
 
             {
                 [0, 1, 2, 3].map((setIndex) => (
