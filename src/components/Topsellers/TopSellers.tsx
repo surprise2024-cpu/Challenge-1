@@ -18,6 +18,7 @@ import woman5 from '../../assets/woman5.jpg'
 import woman6 from '../../assets/woman6.jpg'
 import woman8 from '../../assets/woman8.jpg'
 
+// Seller data used for the first scrolling row.
 const sellers = [
   {id: 1, name: 'Leighton Kramer', price: '276.7 Eth', image: man1},
   {id: 2, name: 'Haylie Arcand', price: '345.6 Eth', image: woman4 },
@@ -27,6 +28,7 @@ const sellers = [
   
 ]
 
+// Seller data used for the second scrolling row.
 const sellers2 = [
   {id: 6, name: 'Jeremy Burch', price: '267.9 Eth', image: man6 },
   {id: 7, name: 'Amelie Griffith', price: '334.1 Eth', image: woman5 },
@@ -43,18 +45,20 @@ export const TopSellers: React.FC = () => {
             <Text variant='h2'>Top Sellers</Text> 
         </div>
 
+        {/* Two scroling rows of the seller cards. */}
         <div className={styles['card-container']}>
           <div className={styles['seller-track']}>
 
+            {/* Repeats the first seller list so the row can scroll continuously. */}
             {
               sellers.map((sel) => (
-                <TopSellerBar key={sel.id} image={sel.image} name={sel.name} price={sel.price} />
+                <TopSellerBar key={`a-${sel.id}`} image={sel.image} name={sel.name} price={sel.price} />
               ))
             }
 
             {
               sellers.map((sel) => (
-                <TopSellerBar key={sel.id} image={sel.image} name={sel.name} price={sel.price} />
+                <TopSellerBar key={`b-${sel.id}`} image={sel.image} name={sel.name} price={sel.price} />
               ))
             }
 
@@ -64,13 +68,13 @@ export const TopSellers: React.FC = () => {
 
             {
               sellers2.map((sel2) => (
-                <TopSellerBar key={sel2.id} image={sel2.image} name={sel2.name} price={sel2.price} />
+                <TopSellerBar key={`c-${sel2.id}`} image={sel2.image} name={sel2.name} price={sel2.price} />
               ))
             }
 
             {
               sellers2.map((sel2) => (
-                <TopSellerBar key={sel2.id} image={sel2.image} name={sel2.name} price={sel2.price} />
+                <TopSellerBar key={`d-${sel2.id}`} image={sel2.image} name={sel2.name} price={sel2.price} />
               ))
             }
 
