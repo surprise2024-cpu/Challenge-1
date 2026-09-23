@@ -9,8 +9,7 @@ import facebookIcon from '../../assets/icons8-facebook-50.png'
 import instaIcon from '../../assets/icons8-instagram-50.png'
 import discordIcon from '../../assets/icons8-discord-50.png'
 
-
-
+// Groups the footer links into seperate columns
 const linkColumns = [
     {id: 1, heading: 'Explore', links: ['Art', 'Photography', 'Music', 'Games']}, 
     {id: 2, heading: 'My Account', links: ['My Profile', 'My Collections', 'My Favorites', 'My Account Settings']}, 
@@ -33,7 +32,8 @@ export const Footer: React.FC = () => {
                     exclusive digital assets. 
 
                 </Text>
-
+                
+                {/* Social media icons shown under the footer description.*/} 
                 <div className={styles.socials}>
 
                     <img src={xIcon} alt='X' className={styles['social-link']} />
@@ -45,6 +45,7 @@ export const Footer: React.FC = () => {
 
             </div>
             
+            {/* Builds each footer link column from the linkColumns array.*/} 
             <div className={styles['footer-div2']}>
                 {
                     linkColumns.map((col) => (
