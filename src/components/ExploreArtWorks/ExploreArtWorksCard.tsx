@@ -3,6 +3,7 @@ import React from 'react'
 import styles from './ExploreArtWorks.module.css'
 import { Text } from '../Text/Text'
 
+// Data needed to build one artwork category card.
 type CardProps = {
     img1: string,
     img2: string,
@@ -16,6 +17,7 @@ export const ExploreArtWorksCard: React.FC<CardProps> = ({ img1, img2, img3, img
   return (
     <div className={styles['card']}>
 
+        {/* Top row with three preview images. */}
         <section className={styles['first-sec']}>
 
             <div>
@@ -32,6 +34,7 @@ export const ExploreArtWorksCard: React.FC<CardProps> = ({ img1, img2, img3, img
 
         </section>
 
+        {/* Larger preview image shown below the top row. */}
         <section className={styles['second-sec']}>
             
             <div>
@@ -39,7 +42,8 @@ export const ExploreArtWorksCard: React.FC<CardProps> = ({ img1, img2, img3, img
             </div>
 
         </section>
-        
+
+        {/* Category name on the left and number of items on the right. */}
         <div className={styles['text-sec']}>
             
             <div>
