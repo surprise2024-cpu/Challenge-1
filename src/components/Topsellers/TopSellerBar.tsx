@@ -2,6 +2,7 @@ import React from 'react'
 
 import styles from './TopSellers.module.css'
 
+// Information needed to displa one seller card.
 type TopSellerBarProps = {
     image: string, 
     name: string, 
@@ -16,10 +17,11 @@ export const TopSellerBar: React.FC<TopSellerBarProps> = ({ image, name, price }
 
             <div className={styles['image-cont']}>
 
-                <img src={image} alt='just an image' className={styles['image']}/>
+                <img src={image} alt={`${name} profile`} className={styles['image']}/>
 
             </div>
 
+            {/* Shows the seller's name and total ETH amount. */}
             <div className={styles['seller-details']}>
             
                 <div className={styles['name']}>{ name }</div>
