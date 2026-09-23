@@ -1,22 +1,24 @@
 import React from 'react'
 import styles from './HeroCardOverlay.module.css'
 
+// Information needed to display the NFT card and its actions.
 type HeroCardOverlayProps = {
     image: string,
     imageAlt: string, 
     endingIn: string, 
     highestBid: string,
     onPlaceBid?: () => void,
-    onPurchase?: () => void,
-    className?: string
+    onPurchase?: () => void
 }
 
 export const HeroCardOverlay: React.FC<HeroCardOverlayProps> = ({image, imageAlt, endingIn, highestBid, onPlaceBid, onPurchase }) => {
   return (
     <div className={styles.card}>
 
+        {/* Main NFT artwork shown as the background of the card. */}
         <img src={image} alt={imageAlt} className={styles.artworkImg}/>
         
+        {/* Sits on top of the bottom, of the artwork and shows bid details and actons. */}
         <div className={styles.footer}>
             <div className={styles.row}>
                 <div>
