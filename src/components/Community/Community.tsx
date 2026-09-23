@@ -4,8 +4,7 @@ import styles from './Community.module.css'
 import { Text } from '../Text/Text'
 import { ContentContainer } from '../ContentContainer'
 
-
-
+// Call-to-action section inviting users to join the NFT community.
 export const Community: React.FC = () => {
   return (
     <div className={styles.community}>
@@ -18,6 +17,7 @@ export const Community: React.FC = () => {
             
             </div>
 
+            {/* Main action button for the community section. */}
             <div className={styles['btn-cont']}>
 
                 <button className={styles['comm-btn']}>Join Community</button>
