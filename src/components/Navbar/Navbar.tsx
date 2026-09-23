@@ -6,8 +6,10 @@ import { Search } from '../Search/Search'
 
 export const Navbar: React.FC = () => {
 
+  // Keeps track of whether the mobile menu is open or closed.
   const [isOpen, setIsOpen] = useState(false)
 
+  // Closes the mobile menu after a link iss selected.
   const closeMenu = () => {
     setIsOpen(false)
   }
@@ -25,7 +27,7 @@ export const Navbar: React.FC = () => {
 
           </Text>
 
-          {/*need these links to navlink*/}
+          {/* Navigation links. On mobile, this becomes the slide-out menu */}
           <div className={`${styles['links']} ${isOpen ? styles['links-open'] : ''}`}>
               <a 
                 href='#/' 
@@ -63,6 +65,7 @@ export const Navbar: React.FC = () => {
                 News
               </a>
 
+            {/* Search and Register button shown inside the mobile menu */}
             <div className={styles['mobile-actions']}>
               <Search />
               <button className={styles['register-btn']}>Register</button>
@@ -75,6 +78,7 @@ export const Navbar: React.FC = () => {
             <button className={styles['register-btn']}>Register</button>
           </div>
 
+        {/* Opens and closes the mobile navigation menu. */}
         <button className={`${styles.hamburger} ${isOpen ? styles['hamburger-open'] : ''}`} 
           onClick={() => setIsOpen(!isOpen)}
           aria-label='Toggle menu'
@@ -84,6 +88,9 @@ export const Navbar: React.FC = () => {
           <span />
         </button> 
         
+        {/* Dark background behind mobil menu.
+          Clicking it closes the menu.
+        */}
         {
           isOpen && (
             <div className={styles.backdrop} onClick={() => setIsOpen(false)} />
