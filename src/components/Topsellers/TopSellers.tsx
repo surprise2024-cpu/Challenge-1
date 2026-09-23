@@ -30,11 +30,11 @@ const sellers = [
 
 // Seller data used for the second scrolling row.
 const sellers2 = [
-  {id: 6, name: 'Jeremy Burch', price: '267.9 Eth', image: man6 },
-  {id: 7, name: 'Amelie Griffith', price: '334.1 Eth', image: woman5 },
-  {id: 8, name: 'Isabela Hart', price: '289.1 Eth', image: woman6 },
-  {id: 9, name: 'Diego Bentley', price: '290.7 Eth', image: man3 },
-  {id: 10, name: 'Daisy Arnord', price: '265.4 Eth', image: woman8 }
+  {id: 6, name: 'Jeremy Burch', price: '267.9 ETH', image: man6 },
+  {id: 7, name: 'Amelie Griffith', price: '334.1 ETH', image: woman5 },
+  {id: 8, name: 'Isabela Hart', price: '289.1 ETH', image: woman6 },
+  {id: 9, name: 'Diego Bentley', price: '290.7 ETH', image: man3 },
+  {id: 10, name: 'Daisy Arnord', price: '265.4 ETH', image: woman8 }
 ]
 
 export const TopSellers: React.FC = () => {

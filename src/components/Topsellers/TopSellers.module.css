@@ -31,7 +31,14 @@
 }
 
 .card {
-    background: linear-gradient(90deg, #0b0626 0%, #2d1a6e 45%, #234c9c 100%);
+    background: linear-gradient(
+        90deg, 
+        #0b0626 0%, 
+        #2d1a6e 45%, 
+        #234c9c 
+        100%
+    );
+
     border: 1px solid rgba(255, 255, 255, 0.18);
     display: flex;
     align-items: center;
@@ -60,7 +67,6 @@
     width: max-content;
     gap: 15px;
     animation: scroll-right 30s linear infinite;
-    cursor: pointer;
     margin-bottom: 15px;
 }
 
@@ -70,7 +76,6 @@
     width: max-content;
     gap: 15px;
     animation: scroll-left 30s linear infinite;
-    cursor: pointer;
 }
 
 @keyframes scroll-left {
@@ -94,12 +99,10 @@
 .image-cont {
     width: 70px;
     height: 70px;
-
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 5px 0 5px 5px;
     border-radius: 12px;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .seller-details {
