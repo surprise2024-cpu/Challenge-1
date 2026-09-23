@@ -20,11 +20,11 @@ import woman8 from '../../assets/woman8.jpg'
 
 // Seller data used for the first scrolling row.
 const sellers = [
-  {id: 1, name: 'Leighton Kramer', price: '276.7 Eth', image: man1},
-  {id: 2, name: 'Haylie Arcand', price: '345.6 Eth', image: woman4 },
-  {id: 3, name: 'Bowen Higgins', price: '323.7 Eth', image: man2 },
-  {id: 4, name: 'Saige fuentes', price: '347.7 Eth', image: man7 },
-  {id: 5, name: 'Sophie Mclain', price: '230.6 Eth', image: woman3 },
+  {id: 1, name: 'Leighton Kramer', price: '276.7 ETH', image: man1},
+  {id: 2, name: 'Haylie Arcand', price: '345.6 ETH', image: woman4 },
+  {id: 3, name: 'Bowen Higgins', price: '323.7 ETH', image: man2 },
+  {id: 4, name: 'Saige fuentes', price: '347.7 ETH', image: man7 },
+  {id: 5, name: 'Sophie Mclain', price: '230.6 ETH', image: woman3 },
   
 ]
 
