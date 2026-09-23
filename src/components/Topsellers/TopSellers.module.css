@@ -5,9 +5,24 @@
 }
 
 .card-container {
+
+    overflow: hidden;
     
-    -webkit-mask-image: linear-gradient(to right, transparent 0, black 6%, black 94%, transparent 100%);
-    mask-image: linear-gradient(to right, transparent 0, black 6%, black 94%, transparent 100%);
+    -webkit-mask-image: linear-gradient(
+        to right, 
+        transparent 0, 
+        black 6%, 
+        black 94%, 
+        transparent 100%
+    );
+
+    mask-image: linear-gradient(
+        to right, 
+        transparent 0, 
+        black 6%, 
+        black 94%, 
+        transparent 100%
+    );
 
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
@@ -15,24 +30,24 @@
     
 }
 
-
 .card {
     background: linear-gradient(90deg, #0b0626 0%, #2d1a6e 45%, #234c9c 100%);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.18);
     display: flex;
     align-items: center;
     width: 250px;
     gap: 30px;
-    border: 1px solid silver;
+    
     border-radius: 10px;
 }
 
 .image {
     width: 100%;
     height: 100%;
-    inset: 0;
     object-fit: cover;
 }
+
+
 
 .head-cont {
     text-align: center;
@@ -79,8 +94,7 @@
 .image-cont {
     width: 70px;
     height: 70px;
-    background-color: blue;
-    align-items: center;
+
     margin-left: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -89,7 +103,9 @@
 }
 
 .seller-details {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .name {
