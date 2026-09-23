@@ -66,6 +66,7 @@ export const TopSellers: React.FC = () => {
 
           </div>
 
+            {/* Repeats the second seller list so the row can scroll continuously. */}
           <div className={styles['seller-track2']}>
 
             {
